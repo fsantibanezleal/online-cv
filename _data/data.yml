@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,15 +12,17 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    email: fsantibanezleal@uchile.cl
     email: felipe.santibanez@amtc.uchile.cl
+    email: fsantibanez@alges.cl
     phone: +56 22 978 4987‬
     website: fsantibanezleal.github.io #do not add http://
     linkedin: fsantibanez
+    twitter: '@fsantiba'
     github: fsantibanezleal
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: fsantibanezleal
     bitbucket:
-    twitter: '@fsantiba'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -44,11 +46,9 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: |
+    summary: | 
       Unraveling a path of Applied Scientific Research...
-      
-      Completed: Short-term Internship at the Queen's University, Ontario, Canada, under the  supervision of the Ph.D. Julian Ortiz. The work is oriented to apply the proposed optimal adaptive sampling methodolgy to advanced sampling for short term planning in mining industry.
-      
+            
       Research work at [IDS-Lab](http://www.ids.uchile.cl/). I worked on image restoration/reconstruction techniques by sparse regularization techniques such as Compressed Sensing, Dantzig Selector and BPDN. I focused specifically at incorporating spatial correlations by experimental covariance matrices. Next to the master student, Thomas Peet Moraga, we worked together on theoretical formulation and experimental analysis of Optimal Well Placement related to the best way of distributing measurements. This work was part of a research project focused on the optimization of sensing/locating resources in areas of mining and drilling. This work aims at obtaining the optimal positions to effect a preset amount of available measurements. Geostatistical and theoretical information tools have contextualized. These works are part of the FONDECYT 1140840 project.
       
       Research work in [SCIAN-Lab](www.scian.cl), [Leo-Lab](http://www.ontogenesis.cl/), and [BNI](http://www.bni.cl/), at Medicine Fac., U. Chile.
@@ -64,102 +64,173 @@ education:
       university: University of Chile, Chile
       time: 2013 - 2019
       details: |
-        Life.
-          - Bullet point
-          - Bullet point
+        Theory and Application of Optimal Sampling and Experimental design in geostatistics.
+          - Short-term Internship at the Queen's University, Ontario, Canada, under the  supervision of the Ph.D. Julian Ortiz.
+          - Optimal adaptive sampling methodolgy to advanced sampling for short term planning in mining industry
     - degree: BSc in Electronic Engineering
       university: Universidad de Concepcion, Chile
       time: 2003 - 2009
       details: |
-        FULL.
-          - Bullet point
-          - Bullet point
+        Development of the work to qualify for the Title of Electronic Civil Engineer. "Collision Detection and Haptic Feedback in virtual simulator for surgical training".
+          - Mathematcal modelling
+          - Computer graphics
+    - degree: Postgraduate Diploma "Health Information Systems"
+      university: Universität Heidelberg, Germany
+      time: 2011 - 2011
+      details: |
+        Joint Postgraduate Diploma between the Universidad de Chile and the Universität Heidelberg (Heidelberg Center for Latin America – Center of Excellence in Investigation and Teaching) http://www.heidelbergcenter.cl/medicalinformatics/en/?page_id=183 
+          - Postgraduate Diploma: "HEALTH INFORMATION SYSTEMS: SOCIAL AND TECHNICAL REQUIREMENTS FOR SUCCESSFUL DESIGN AND DEPLOYMENT"
+          - Technical and social requirements which are pivotal for successful implementation and operation of health information systems tailored to the needs of the particular health care institution.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Applied Scientific Postdoctoral Research
+      time: 2018 - Present
+      company: Advanced Laboratory for Geostatistical Supercomputing, ALGES-AMTC Universidad de Chile. Santiago, Chile
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Applied scientific research related with topics of machine learning classification and mathematical modelling of multidimensional data, hyper-spectral images, data fusion and super-resolution.
+          - Characterization and classification of hyper-spectral data
+          - Mineralogical data
+          - Microscopic and biomedical sources
+    - role: Principal Hardware and Software Engineer
+      time: 2017 - 2020
+      company: Micromundo Chile Spa (https://micromundo.app/), Santiago, Chile
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Develop new educational methodologies based on school scientific research.
+          - Integrate low cost microscopy, image processing and virtual microscopy for the generation of didactic educational content aimed at basic and middle school students.
+          - Make available to teachers and students the tools and knowledge in virtual microscopy that allow them to generate advanced scientific research.
+    - role: Medical Informatics / Informatics Pathology Teacher
+      time: 2017 - Present
+      company: Medical Technology School, Campus Providencia, Universidad San Sebastian. Santiago.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Development of activities related to Microscopy, Optics and Image Processing. Exhibitions related to topics on physics, optics, image capture and applied mathematical tools for digital processing of images applied in Medical Informatics / Informatics Pathology. 
+          - Development, implementation and execution of practicals aimed at providing knowledge and support on the use of scientific software for image processing and mathematical analysis
+          - FIJI and ImageJ
+    - role: Freelancer in Software Development and Support
+      time: 2017 - 2019
+      company: Private Companies
+      details: |
+        Electronic and Computer Support, Fieldwork and Remote Assistance.
+          - Software Implementation and Optimization.
+          - Asp.Net Web App for manage of Photography, GIF and Video and Sharing on Social networks
+    - role: Hardware and Software Engineer
+      time: 2011 - 2016
+      company: Biomedical Neuroscience Institute (BNI), University of Chile. Santiago
+      details: |
+        Software Development for Scientific Computing on Microscopy with Biomedical Applications. Project ICM (P04-068-F, P09-015-F), Image Processing Software Development for Scientific Computing on Microscopy with Biomedical Applications.
+          - Development and support for modeling and optimization of algorithms and Software for developmental biology phenomenon and applied sciences. Development of Super-resolution microscopy techniques. 
+          - Algorithms for skeletonization in models of biological structures based on 3D cloud points approach and Octree graphs extraction and reduction.
+          - Collaborative work with the III Physics Institute at the Georg-August-Universität Göttingen (Germany), in a novel super-resolution microscopy technique based on statistical analysis for spatio-temporal data in large microscopy images. Development and extension of the SOFI (spatial-temporal fluctuation imaging) technique for a first implementation in microscopy facilities at the University of Chile. 
+          - Optimization and parallelization of the SOFI calculation using a cluster with MATLAB Parallel Computing Toolbox and the CUDA concurrent programming language
+    - role: Research assistant, Support Electronic Engineer
+      time: 2010 - 2011
+      company: Nucleo Milenio NEMO, School of Medicine & School of Physical and Mathematical Sciences. University of Chile
+      details: |
+        Project NEMO (P07-048-F). Development and support for modeling, parallelization and optimization of algorithms and Software of NEMO lab for developmental biology phenomenon and applied sciences.
+          - Development of methodology for parameters extraction for Skeleton-like structures in biological images of microscopy
+          - Optimization and correction of SCIAN-Soft software  and graphic models for visual parameters representation
+    - role: Project Coordinator
+      time: 2011 - 2011
+      company: Heidelberg Center para América Latina
+      details: |
+        Project Medical Informatics Santiago-Heidelberg (http://www.heidelbergcenter.cl/medicalinformatics/en/). Support Plan and Development of Excellence center of Medical Informatics in Latin-American between the Universidad de Chile and the Heidelberg Center of University of Heidelberg.
+          - Participate and support the First Summer School “Health Informatics”: Telemedicine and Health Information Systems (2010) and the First version of Diplomado: “Health Information Systems: Social and technical requirements for successful design and deployment” (2011). 
+          - Presently supporting the formulation and presentation of Master in Medical Informatics in the Universidad de Chile          
+    - role: Researcher- Software Engineer
+      time: 2009 - 2011
+      company: Faculty of Physical Sciences and Mathematics, Universidad de Concepción.
+      details: |
+        Implementation of algorithms and mathematical modeling of collision detection, calculation of contact and collision between objects modeled by geometric meshs, soft tissue deformation and haptic force feedback. Implementation of interaction of two haptic devices in dual configuration interface developed for Windows Forms. The work has been synthesized in degree thesis "Collision Detection and Haptic feedback in virtual simulator for surgical training".
+          - Development Platform for Micro and Nano Optics Handling interactive in Real-time using optical tweezers and spatial light modulator (SLM).
+          - Implementation, review and correction of algorithms for physical and haptic (force feedback) interactions. Implementation of texture-based haptic interaction. Developed in MFC and Flash platform.
+          - MCGA visualization interface development for a risk prevention software .Build prototype of graphic module for generator for alerts in real-time monitoring of geopositioning. Developed in Java for project requirements.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Some Projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Micromundo
+        link: "https://micromundo.app/"
+        tagline: "Fondo de Capital Semilla para el Desarrollo Ágil de Emprendimientos TIC desde Chile para America Latina y el Mundo” Programa:Corfo Folio/N°: 14SSAF-270."
 
-      - title: DevStudio
+      - title: Fast SLMIC
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Portable and low-cost 3D printed microscopy based on adaptive structured lighting, a new high-resolution alternative in diagnostics and education."
 
-      - title: Tempo
+      - title: NEMO
+        link: "http://www.ontogenesis.cl/research_scientificnet_chile.html"
+        tagline: "Quantitative in vivo imaging techniques with high temporal and spatial resolution for molecular neuroscience, development, morphogenesis, neuropathology."
+
+      - title: FONDECYT 1120579
+        link: "http://www.scian.cl/portal/globals.php?COD_SECCION=2988"
+        tagline: "Fast Computational Schemes for the Analysis of Morpho-Topological Data from High Throughput Microscopy."
+
+      - title: FeelIT
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "An interactive platform for the visually impaired with haptic-based virtual relief representation"
 
-      - title: Atom
+      - title: Holo Optical Twezzers
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Interactive platform for micro and nano optics handling in Real-time"
 
-      - title: Delta
+      - title: Project FONDEF (D06I1057)
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Arthroscopic Training System Based On Interactive Visualization and Haptic Devices"
 
+      - title: MCGA visualization interface
+        link: "#"
+        tagline: "MCGA visualization interface for a risk prevention software, graphic module for alerts generator in real-time monitoring of geopositioning."
+       
+      - title: Platform VICE 
+        link: "#"
+        tagline: "Project FONDEF (TE06I1014), Development Platform VICE Based Visualization Technology and Haptic Devices (VICE)."
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Last Scientific Publications.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
+        link: "https://www.mdpi.com/journal/minerals/special_issues/Advanced_Spectral_Techniques"
+        authors: "Alvaro F. Egaña, Felipe A. Santibáñez-Leal, Christian Vidal, Gonzalo Díaz, Sergio Liberman, Alejandro Ehrenfeld"
+        conference: "Special Issue: Advanced Spectral Techniques for Mineralogical and Elemental Analysis in Mining and Mineral Processing. Minerals, online first (2021)"       
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Multi Pixel Stochastic Approach to Mineral Samples Spectral Analysis for Geometallurgical Modeling"
+        link: "https://gecamin.com/procemin.geomet/index.php#home"
+        authors: "Cristian F. Jara, Alejandro Ehrenfeld, Álvaro F. Egaña, Christian Vidal, Felipe A. Santibáñez-Leal"
+        conference: "Procemin Geomet 2020, Chile"       
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Ore-Waste Discrimination with Adaptive Sampling Strategy"
+        link: "https://link.springer.com/article/10.1007/s11053-020-09625-3"
+        authors: "Felipe A. Santibáñez-Leal, Julián M. Ortiz & Jorge F. Silva" 
+        conference: "Natural Resources Research volume 29, pages 3079–3102 (2020)"
+
+      - title: "Sampling strategies for uncertainty reduction in categorical random fields: Formulation, mathematical analysis and application to multiple-point simulations"
+        link: "https://link.springer.com/article/10.1007/s11004-018-09777-2"
+        authors: "Felipe Santibáñez-Leal, Jorge F. Silva & Julián M. Ortiz" 
+        conference: "Mathematical Geosciences volume 51, pages 579–624 (2019)"
+
+      - title: "An information-theoretic sampling strategy for the recovery of geological images: modeling, analysis, and implementation"
+        link: "http://repositorio.uchile.cl/handle/2250/175050"
+        authors: "Felipe Santibáñez-Leal"
+        conference: "PhD Thesis in Electrical Engineering (2019)"
+        
+      - title: "Geological Facies Recovery Based on Weighted l1-Regularization"
+        link: "https://link.springer.com/article/10.1007%2Fs11004-019-09825-5"
+        authors: "Hernan Calderon, Felipe Santibañez, Jorge F. Silva, Julián M. Ortiz & Alvaro Egaña"
+        conference: "Mathematical Geosciences volume 52, pages 593–617 (2020)"
+
+      - title: "Channelized facies recovery based on weighted compressed sensing"
+        link: "https://ieeexplore.ieee.org/document/7569627"
+        authors: "Hernán Calderón, Felipe Santibañez, Jorge F. Silva, Julián Ortiz, Álvaro Egaña"
+        conference: "2016 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM), Rio de Janerio, pp. 1-5 (2016)"
+
+      - title: "Computational methods for analysis of dynamic events in cell migration"
+        link: "https://pubmed.ncbi.nlm.nih.gov/24467201/"
+        authors: "V Castañeda, M Cerda, F Santibáñez, J Jara, E Pulgar, K Palma, C G Lemus, M Osorio-Reich, M L Concha, S Hartel"
+        conference: " Curr Mol Med. 14(2): pages 291-307 (2014)"       
+
+      - title: "SOFI of GABAB neurotransmitter receptors in hippocampal neurons elucidates intracellular receptor trafficking and assembly"
+        link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8590/85900N/SOFI-of-GABAB-neurotransmitter-receptors-in-hippocampal-neurons-elucidates-intracellular/10.1117/12.2006215.short?SSO=1"
+        authors: "Anja Huss, Omar Ramírez, Felipe Santibáñez, Andrés Couve, Steffen Härtel, Jörg Enderlein"
+        conference: "Proc. SPIE 8590, Single Molecule Spectroscopy and Superresolution Imaging VI, 85900N (2013)"       
 
 skills:
     title: Skills &amp; Proficiency
