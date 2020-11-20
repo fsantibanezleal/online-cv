@@ -7,74 +7,71 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Felipe Santibáñez-Leal
+    tagline: Applied Scientific Researcher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: felipe.santibanez@amtc.uchile.cl
+    phone: +56 22 978 4987‬
+    website: fsantibanezleal.github.io #do not add http://
+    linkedin: fsantibanez
+    github: fsantibanezleal
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@fsantiba'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Intermediate
 
     interests:
-      - item: Climbing
+      - item: Nature
         link:
 
-      - item: Snowboarding
+      - item: Science
         link:
 
-      - item: Cooking
+      - item: Being a Hermit
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Unraveling a path of Applied Scientific Research...
+      
+      Completed: Short-term Internship at the Queen's University, Ontario, Canada, under the  supervision of the Ph.D. Julian Ortiz. The work is oriented to apply the proposed optimal adaptive sampling methodolgy to advanced sampling for short term planning in mining industry.
+      
+      Research work at [IDS-Lab](http://www.ids.uchile.cl/). I worked on image restoration/reconstruction techniques by sparse regularization techniques such as Compressed Sensing, Dantzig Selector and BPDN. I focused specifically at incorporating spatial correlations by experimental covariance matrices. Next to the master student, Thomas Peet Moraga, we worked together on theoretical formulation and experimental analysis of Optimal Well Placement related to the best way of distributing measurements. This work was part of a research project focused on the optimization of sensing/locating resources in areas of mining and drilling. This work aims at obtaining the optimal positions to effect a preset amount of available measurements. Geostatistical and theoretical information tools have contextualized. These works are part of the FONDECYT 1140840 project.
+      
+      Research work in [SCIAN-Lab](www.scian.cl), [Leo-Lab](http://www.ontogenesis.cl/), and [BNI](http://www.bni.cl/), at Medicine Fac., U. Chile.
+      Scian-Lab: Work in SOFI microscopy and the characterization of Qdots by spectrum analysis of blinking curves,
+      Leo-Lab: I developed a mathematical model to describe the collective migration and guidance processes for Kupffer vesicle formation in Zebra Fish. These works are part of FONDECYT 1120558 project.
+      
+      Teaching: Professor at Master course: Image and biosignal processing II (Medicine Fac., U. Chile). (Co)-localization Theory: (Super)-Resolution and Overlapping/Colocalization. Super-resolution optical imaging fluctuation (Hand-on Activity).
+      
+      Coding on IDL, Matlab, C++, Objective C, Swift, Python, .Net, HPC Matlab PCT, CUDA, MPI
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Electrical Engineering
+      university: University of Chile, Chile
+      time: 2013 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Life.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Electronic Engineering
+      university: Universidad de Concepcion, Chile
+      time: 2003 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        FULL.
           - Bullet point
           - Bullet point
 experiences:
@@ -168,23 +165,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Scientific Programming
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C/C#
+        level: 90%
+
+      - name: IDL
+        level: 90%
+
+      - name: Matlab & Simulink
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Assembler
+        level: 80%
+
+      - name: Verilog & Abel
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
