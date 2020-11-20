@@ -272,3 +272,37 @@ p {
     }
 
 }
+
+.page__content {
+  text-align: justify;
+  .separatorbg {
+  //used for bg image
+    max-width: 1000px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }    
+}
+
+
+.wrapper
+{
+  text-align: justify;
+}
+
+.sidebar__right {
+  text-align: left;
+}
+
+
+.sidebar-wrapper {
+  text-align: left;
+}
+
+.separatorbg {
+//used for bg image
+  max-width: 100%;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
