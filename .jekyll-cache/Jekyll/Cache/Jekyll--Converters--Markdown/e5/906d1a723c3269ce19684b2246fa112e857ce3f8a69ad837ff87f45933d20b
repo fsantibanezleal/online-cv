@@ -1,0 +1,7 @@
+I"*<p>Implementation of algorithms and mathematical modeling of collision detection, calculation of contact and collision between objects modeled by geometric meshs, soft tissue deformation and haptic force feedback. Implementation of interaction of two haptic devices in dual configuration interface developed for Windows Forms. The work has been synthesized in degree thesis “Collision Detection and Haptic feedback in virtual simulator for surgical training”.</p>
+<ul>
+  <li>Development Platform for Micro and Nano Optics Handling interactive in Real-time using optical tweezers and spatial light modulator (SLM).</li>
+  <li>Implementation, review and correction of algorithms for physical and haptic (force feedback) interactions. Implementation of texture-based haptic interaction. Developed in MFC and Flash platform.</li>
+  <li>MCGA visualization interface development for a risk prevention software .Build prototype of graphic module for generator for alerts in real-time monitoring of geopositioning. Developed in Java for project requirements.</li>
+</ul>
+:ET

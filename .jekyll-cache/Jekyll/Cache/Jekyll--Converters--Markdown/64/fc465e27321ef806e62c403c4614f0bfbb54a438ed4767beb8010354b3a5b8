@@ -1,0 +1,8 @@
+I"�<p>Software Development for Scientific Computing on Microscopy with Biomedical Applications. Project ICM (P04-068-F, P09-015-F), Image Processing Software Development for Scientific Computing on Microscopy with Biomedical Applications.</p>
+<ul>
+  <li>Development and support for modeling and optimization of algorithms and Software for developmental biology phenomenon and applied sciences. Development of Super-resolution microscopy techniques.</li>
+  <li>Algorithms for skeletonization in models of biological structures based on 3D cloud points approach and Octree graphs extraction and reduction.</li>
+  <li>Collaborative work with the III Physics Institute at the Georg-August-Universität Göttingen (Germany), in a novel super-resolution microscopy technique based on statistical analysis for spatio-temporal data in large microscopy images. Development and extension of the SOFI (spatial-temporal fluctuation imaging) technique for a first implementation in microscopy facilities at the University of Chile.</li>
+  <li>Optimization and parallelization of the SOFI calculation using a cluster with MATLAB Parallel Computing Toolbox and the CUDA concurrent programming language</li>
+</ul>
+:ET
