@@ -164,7 +164,7 @@ projects:
         tagline: "Fast Computational Schemes for the Analysis of Morpho-Topological Data from High Throughput Microscopy."
 
       - title: FeelIT
-        link: "#"
+        link: "https://fsantibanezleal.github.io/portfolio/FeelIT/"
         tagline: "An interactive platform for the visually impaired with haptic-based virtual relief representation"
 
       - title: Holo Optical Twezzers
@@ -190,7 +190,7 @@ publications:
       - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
         link: "https://www.mdpi.com/journal/minerals/special_issues/Advanced_Spectral_Techniques"
         authors: "Alvaro F. Egaña, Felipe A. Santibáñez-Leal, Christian Vidal, Gonzalo Díaz, Sergio Liberman, Alejandro Ehrenfeld"
-        conference: "Special Issue: Advanced Spectral Techniques for Mineralogical and Elemental Analysis in Mining and Mineral Processing. Submited to Minerals, Under revision"       
+        conference: "Special Issue: Advanced Spectral Techniques for Mineralogical and Elemental Analysis in Mining and Mineral Processing. Submited to Minerals, Acepted"       
 
       - title: "Multi Pixel Stochastic Approach to Mineral Samples Spectral Analysis for Geometallurgical Modeling"
         link: "https://gecamin.com/procemin.geomet/index.php#home"
