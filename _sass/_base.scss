@@ -160,22 +160,21 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 7;
-  order: $resume-order;
-  background: #fff;
-  padding: 60px;
-  .section-title {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
-    color: darken($theme-color, 15%);
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  .section {
-    margin-bottom: 60px;
-  }
+    background: #fff;
+    padding: 60px;
+    padding-right: 340px;
+    .section-title {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 500;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .section {
+        margin-bottom: 60px;
+    }
 
   .experiences-section,
   .recommendations-section,
@@ -219,29 +218,20 @@ p {
     color: $text-grey;
   }
 
-  .project-title {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: darken($theme-color, 15%);
-  }
-  .projects-section {
-    .intro {
-      margin-bottom: 30px;
+    .project-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 5px;
     }
-    .item {
-      margin-bottom: 15px;
+    .projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
     }
-  }
-  .oss-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
-    }
-  }
 
   .publication-title {
     font-size: 16px;
@@ -362,4 +352,38 @@ p {
   .fas {
     margin-right: 5px;
   }
+}
+
+.page__content {
+  text-align: justify;
+  .separatorbg {
+  //used for bg image
+    max-width: 1000px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }    
+}
+
+
+.wrapper
+{
+  text-align: justify;
+}
+
+.sidebar__right {
+  text-align: left;
+}
+
+
+.sidebar-wrapper {
+  text-align: left;
+}
+
+.separatorbg {
+//used for bg image
+  max-width: 100%;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
