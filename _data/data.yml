@@ -214,13 +214,45 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: Mining Process Optimization Platform
+        link:
+        tagline: "End-to-end ML platform for SAG milling, flotation, and thickening optimization across multiple mining divisions."
+
+      - title: Real-Time Material Tracking & Blending
+        link:
+        tagline: "Digital twin for ore flow tracking, stockpile management, and blending optimization in mining operations."
+
+      - title: Environmental Monitoring & Mitigation
+        link:
+        tagline: "Computer vision (24-stream) and Generative AI for pollution detection, forecasting, and natural-language recommendations."
+
+      - title: Geotechnical Risk Prediction
+        link:
+        tagline: "ML-based prediction of rockburst and slope instability using seismic data, spatial features, and 3D block models."
+
       - title: HIDSAG
         link: "https://doi.org/10.1038/s41597-023-02061-x"
         tagline: "Hyperspectral Image Database for Supervised Analysis in Geometallurgy. Published in Scientific Data (Nature)."
 
-      - title: SAG Mill Optimization System
-        link:
-        tagline: "Advanced analytics recommender system for SAG mill operations at Minera Centinela."
+      - title: Cellular Potts Model Simulator
+        link: "https://github.com/fsantibanezleal/SCIAN_LEO_CPM"
+        tagline: "Interactive CPM simulator for zebrafish embryonic cell migration with deformable bodies and filopodia-driven motility."
+
+      - title: 3D Embryo Cell Migration Simulator
+        link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
+        tagline: "3D simulation of collective cell migration on a spherical zebrafish embryo surface using Three.js and FastAPI."
+
+      - title: Dynamic Holographic Optical Tweezers
+        link: "https://github.com/fsantibanezleal/CEFOP_DinHot"
+        tagline: "Real-time holographic phase mask computation for optical particle trapping using the Gerchberg-Saxton algorithm."
+
+      - title: Dual Photography Lab
+        link: "https://github.com/fsantibanezleal/FASL_Coding_DualFotography"
+        tagline: "Computational imaging reconstructing scenes from the projector's viewpoint via light transport matrices and SVD."
+
+      - title: Robotic Writer
+        link: "https://github.com/fsantibanezleal/Udec_Robotic_Writer"
+        tagline: "5-DOF robotic arm simulation for letter placement using Denavit-Hartenberg kinematics and trajectory planning."
 
       - title: MicroMundo
         link: "https://micromundo.app/"
@@ -228,7 +260,7 @@ projects:
 
       - title: FeelIT
         link:
-        tagline: "Haptic and VR interactive platform for visually impaired users—exploring tactile feedback for virtual objects."
+        tagline: "Haptic and VR interactive platform for visually impaired users — exploring tactile feedback for virtual objects."
 
       - title: HyClusVi
         link:
@@ -239,6 +271,26 @@ oss:
     intro:
 
     contributions:
+      - title: SCIAN_LEO_CPM
+        link: "https://github.com/fsantibanezleal/SCIAN_LEO_CPM"
+        tagline: "Cellular Potts Model simulator for zebrafish embryonic cell migration."
+
+      - title: SCIAN_EVL_SpherSIM
+        link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
+        tagline: "3D simulation of DFC collective migration on spherical embryo surface."
+
+      - title: CEFOP_DinHot
+        link: "https://github.com/fsantibanezleal/CEFOP_DinHot"
+        tagline: "Dynamic Holographic Optical Tweezers with Gerchberg-Saxton algorithm."
+
+      - title: Dual Photography Lab
+        link: "https://github.com/fsantibanezleal/FASL_Coding_DualFotography"
+        tagline: "Computational dual photography using light transport matrices."
+
+      - title: Robotic Writer
+        link: "https://github.com/fsantibanezleal/Udec_Robotic_Writer"
+        tagline: "5-DOF Scorbot III robotic arm kinematics simulator."
+
       - title: SCIAN-Soft
         link: "http://www.scian.cl/"
         tagline: "Scientific image analysis software for biomedical and microscopy applications."
