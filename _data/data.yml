@@ -214,6 +214,14 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: Crusher Liner Wear Management System
+        link:
+        tagline: "Full-stack platform for 3D point cloud analysis, cylindrical wear profiling, and remaining-life forecasting of industrial crusher liners."
+
+      - title: Hyperspectral Mineral Classification Platform
+        link:
+        tagline: "ML platform for mineral identification from VNIR/SWIR imagery using ensemble methods, CNNs, and compositional constraints."
+
       - title: Mining Process Optimization Platform
         link:
         tagline: "End-to-end ML platform for SAG milling, flotation, and thickening optimization across multiple mining divisions."
