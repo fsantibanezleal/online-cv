@@ -250,6 +250,18 @@ projects:
         link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
         tagline: "3D simulation of collective cell migration on a spherical zebrafish embryo surface using Three.js and FastAPI."
 
+      - title: SOFI Super-Resolution Microscopy
+        link: "https://github.com/fsantibanezleal/FASL_SOFI_QDOTS"
+        tagline: "Quantum dot fluorescence analysis via higher-order cumulants, achieving sub-diffraction resolution (up to 2.45x improvement)."
+
+      - title: Optimal Spatial Sampling (AdSEMES)
+        link: "https://github.com/fsantibanezleal/IDS_OWP"
+        tagline: "Information-theoretic framework for optimal well placement using adaptive entropy maximization with (1-1/e) guarantee."
+
+      - title: 3D Haptic Simulation
+        link: "https://github.com/fsantibanezleal/UDEC_Haptic_SIM"
+        tagline: "Octree collision detection and spring-damper force feedback for virtual object interaction via Three.js and WebSocket."
+
       - title: Dynamic Holographic Optical Tweezers
         link: "https://github.com/fsantibanezleal/CEFOP_DinHot"
         tagline: "Real-time holographic phase mask computation for optical particle trapping using the Gerchberg-Saxton algorithm."
