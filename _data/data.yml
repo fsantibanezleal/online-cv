@@ -1,264 +1,327 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False
+    education: True
 
     # Profile information
-    name: Felipe Santibáñez-Leal
-    tagline: Applied Scientific Researcher
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Felipe Santibañez-Leal
+    tagline: "I&F Decision Science Assoc. Manager | Technical & Project Leader | Advanced Analytics & Digital Transformation"
+    avatar: profile.png
 
     # Sidebar links
-    email: fsantibanezleal@uchile.cl
-    email: felipe.santibanez@amtc.uchile.cl
-    email: fsantibanez@alges.cl
-    phone: +56 22 978 4987‬
-    website: fsantibanezleal.github.io #do not add http://
+    email: felipe@FASL.Work
+    phone:
+    timezone: America/Santiago
+    citizenship: Chile
+    website: fsantibanezleal.github.io
     linkedin: fsantibanez
-    twitter: '@fsantiba'
     github: fsantibanezleal
-    telegram: # add  your nickname without '@' sign
-    gitlab: fsantibanezleal
+    gitlab:
     bitbucket:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads:
+    pdf:
 
     languages:
       - idiom: Spanish
         level: Native
 
       - idiom: English
-        level: Intermediate
+        level: Professional Working
 
     interests:
-      - item: Nature
+      - item: Data Science & Machine Learning
         link:
 
-      - item: Science
+      - item: Computational Photography & Optics
         link:
 
-      - item: Being a Hermit
+      - item: Geostatistics & Mining Analytics
+        link:
+
+      - item: Nature & Hiking
+        link:
+
+      - item: Scientific Education & Outreach
         link:
 
 career-profile:
     title: Career Profile
-    summary: | 
-      Unraveling a path of Applied Scientific Research...
-            
-      Research work at [IDS-Lab](http://www.ids.uchile.cl/). I worked on image restoration/reconstruction techniques by sparse regularization techniques such as Compressed Sensing, Dantzig Selector and BPDN. I focused specifically at incorporating spatial correlations by experimental covariance matrices. Next to the master student, Thomas Peet Moraga, we worked together on theoretical formulation and experimental analysis of Optimal Well Placement related to the best way of distributing measurements. This work was part of a research project focused on the optimization of sensing/locating resources in areas of mining and drilling. This work aims at obtaining the optimal positions to effect a preset amount of available measurements. Geostatistical and theoretical information tools have contextualized. These works are part of the FONDECYT 1140840 project.
-      
-      Research work in [SCIAN-Lab](www.scian.cl), [Leo-Lab](http://www.ontogenesis.cl/), and [BNI](http://www.bni.cl/), at Medicine Fac., U. Chile.
-      Scian-Lab: Work in SOFI microscopy and the characterization of Qdots by spectrum analysis of blinking curves,
-      Leo-Lab: I developed a mathematical model to describe the collective migration and guidance processes for Kupffer vesicle formation in Zebra Fish. These works are part of FONDECYT 1120558 project.
-      
-      Teaching: Professor at Master course: Image and biosignal processing II (Medicine Fac., U. Chile). (Co)-localization Theory: (Super)-Resolution and Overlapping/Colocalization. Super-resolution optical imaging fluctuation (Hand-on Activity).
-      
-      Coding on IDL, Matlab, C++, Objective C, Swift, Python, .Net, HPC Matlab PCT, CUDA, MPI
-      
+    summary: |
+      Advanced analytics leader with 15+ years bridging academia and industry. I align data-driven
+      initiatives with business objectives, guide cross-functional teams toward operational excellence,
+      and scale solutions from pilot to enterprise adoption.
+
+      I design and deploy analytical and digital solutions that advance key operational KPIs, enhance
+      reliability and safety, and accelerate insight generation. My work spans mining, manufacturing,
+      and services—delivering throughput and recovery gains in processing plants, boosting industrial
+      productivity, reducing critical environmental alerts, and compressing field-data workflows
+      (GPR, hyperspectral, magnetometry) from days to hours.
+
 education:
-    - degree: PhD in Electrical Engineering
-      university: University of Chile, Chile
+    - degree: M.Sc. Program in Project Management
+      university: Universidad de Viña del Mar
+      time: 2024 - Present
+      details:
+
+    - degree: Ph.D. in Electrical Engineering
+      university: Universidad de Chile
       time: 2013 - 2019
       details: |
-        Theory and Application of Optimal Sampling and Experimental design in geostatistics.
-          - Short-term Internship at the Queen's University, Ontario, Canada, under the  supervision of the Ph.D. Julian Ortiz.
-          - Optimal adaptive sampling methodolgy to advanced sampling for short term planning in mining industry
-    - degree: BSc in Electronic Engineering
-      university: Universidad de Concepcion, Chile
+        Thesis: "An information-theoretic sampling strategy for the recovery of geological images:
+        modeling, analysis, and implementation." Focus on inverse problems, geosciences, compressed
+        sensing, and adaptive sampling strategies. CONICYT National Scholarship.
+
+    - degree: B.Sc. in Electronic Civil Engineering
+      university: Universidad de Concepción
       time: 2003 - 2009
       details: |
-        Development of the work to qualify for the Title of Electronic Civil Engineer. "Collision Detection and Haptic Feedback in virtual simulator for surgical training".
-          - Mathematcal modelling
-          - Computer graphics
-    - degree: Postgraduate Diploma "Health Information Systems"
-      university: Universität Heidelberg, Germany
-      time: 2011 - 2011
+        Recipient of Enrique Molina Garmendia and Bicentenario Scholarships.
+
+    - degree: Industrial Electronics Technician
+      university: C.E.A.T. Liceo Mauricio Hochschild
+      time: 1999 - 2002
       details: |
-        Joint Postgraduate Diploma between the Universidad de Chile and the Universität Heidelberg (Heidelberg Center for Latin America – Center of Excellence in Investigation and Teaching) http://www.heidelbergcenter.cl/medicalinformatics/en/?page_id=183 
-          - Postgraduate Diploma: "HEALTH INFORMATION SYSTEMS: SOCIAL AND TECHNICAL REQUIREMENTS FOR SUCCESSFUL DESIGN AND DEPLOYMENT"
-          - Technical and social requirements which are pivotal for successful implementation and operation of health information systems tailored to the needs of the particular health care institution.
+        Awards for renewable energy projects.
+
 experiences:
-    - role: Applied Scientific Postdoctoral Research
-      time: 2018 - Present
-      company: Advanced Laboratory for Geostatistical Supercomputing, ALGES-AMTC Universidad de Chile. Santiago, Chile
+    - role: I&F Decision Science Assoc. Manager
+      time: Sept. 2025 - Present
+      company: Accenture – Industry X, Santiago, Chile
       details: |
-        Applied scientific research related with topics of machine learning classification and mathematical modelling of multidimensional data, hyper-spectral images, data fusion and super-resolution.
-          - Characterization and classification of hyper-spectral data
-          - Mineralogical data
-          - Microscopic and biomedical sources
-    - role: Principal Hardware and Software Engineer
-      time: 2017 - 2020
-      company: Micromundo Chile Spa (https://micromundo.app/), Santiago, Chile
+        Senior Data Science Lead & Technical Project Lead at CODELCO MinCo-Hidro.
+
+          - Guide strategic and ethical application of data-derived insights across mining operations
+          - Architect and deliver solutions using Data & AI strategies and industry-specific technologies
+          - Support pre-sales and business development for industry-focused Data & AI projects
+          - Develop models and algorithms grounded in decision science and domain expertise
+
+    - role: Data Processing Specialist | Senior Lead Data Scientist
+      time: Jan. 2025 - Sept. 2025
+      company: Minera Centinela – AMSA Group, Antofagasta, Chile
       details: |
-        Develop new educational methodologies based on school scientific research.
-          - Integrate low cost microscopy, image processing and virtual microscopy for the generation of didactic educational content aimed at basic and middle school students.
-          - Make available to teachers and students the tools and knowledge in virtual microscopy that allow them to generate advanced scientific research.
-    - role: Medical Informatics / Informatics Pathology Teacher
-      time: 2017 - Present
-      company: Medical Technology School, Campus Providencia, Universidad San Sebastian. Santiago.
+        Led advanced analytics initiatives across the mining value chain.
+
+          - Predictive and optimization models for SAG milling, flotation, and stockpile management; +120 TPH throughput uplift
+          - Digital dashboards for operational recommendation adherence and real-time decision-making
+          - Mineral traceability and stockpile segregation/extraction models improving blending strategies
+          - Site-wide air quality initiative achieving 15% reduction in severe-event alerts
+
+    - role: Business & Technology Delivery Associate Manager
+      time: Jun. 2024 - Dec. 2024
+      company: Accenture – Industry X, Santiago, Chile
       details: |
-        Development of activities related to Microscopy, Optics and Image Processing. Exhibitions related to topics on physics, optics, image capture and applied mathematical tools for digital processing of images applied in Medical Informatics / Informatics Pathology. 
-          - Development, implementation and execution of practicals aimed at providing knowledge and support on the use of scientific software for image processing and mathematical analysis
-          - FIJI and ImageJ
-    - role: Freelancer in Software Development and Support
-      time: 2017 - 2019
-      company: Private Companies
+        Strategic advisor in digital transformation for a leading national mining company.
+
+          - Led Generative AI initiatives for process improvement and operational communication
+          - Defined functional and application architectures aligned with business requirements
+          - Underground ore transport optimization and geophysical risk analysis solutions
+
+    - role: Project Leader | Senior Data Scientist
+      time: Jan. 2022 - May 2024
+      company: CODELCO, Santiago, Chile
       details: |
-        Electronic and Computer Support, Fieldwork and Remote Assistance.
-          - Software Implementation and Optimization.
-          - Asp.Net Web App for manage of Photography, GIF and Video and Sharing on Social networks
-    - role: Hardware and Software Engineer
-      time: 2011 - 2016
-      company: Biomedical Neuroscience Institute (BNI), University of Chile. Santiago
+        Led optimization projects for flotation, milling, and thickening across divisions.
+
+          - Achieved +100 TPH throughput increases and measurable copper recovery improvements
+          - Deployed pollution mitigation using computer vision (24-stream monitoring) and Generative AI for natural-language recommendations
+          - Supervised pilots and prototypes integrated into the company's operational portfolio
+          - Technical improvements in data management (Spark Delta, Kedro, LogAnalytics) and Azure migration
+
+    - role: Head of Analytics and Development Teams
+      time: Aug. 2021 - Dec. 2021
+      company: Alaya Digital Solutions, Santiago, Chile
       details: |
-        Software Development for Scientific Computing on Microscopy with Biomedical Applications. Project ICM (P04-068-F, P09-015-F), Image Processing Software Development for Scientific Computing on Microscopy with Biomedical Applications.
-          - Development and support for modeling and optimization of algorithms and Software for developmental biology phenomenon and applied sciences. Development of Super-resolution microscopy techniques. 
-          - Algorithms for skeletonization in models of biological structures based on 3D cloud points approach and Octree graphs extraction and reduction.
-          - Collaborative work with the III Physics Institute at the Georg-August-Universität Göttingen (Germany), in a novel super-resolution microscopy technique based on statistical analysis for spatio-temporal data in large microscopy images. Development and extension of the SOFI (spatial-temporal fluctuation imaging) technique for a first implementation in microscopy facilities at the University of Chile. 
-          - Optimization and parallelization of the SOFI calculation using a cluster with MATLAB Parallel Computing Toolbox and the CUDA concurrent programming language
-    - role: Research assistant, Support Electronic Engineer
-      time: 2010 - 2011
-      company: Nucleo Milenio NEMO, School of Medicine & School of Physical and Mathematical Sciences. University of Chile
+        Led analytics and development teams across mining, aquaculture, retail, and brewing industries.
+
+          - Achieved 10-15% production improvements in real operations
+          - Computer-vision-based monitoring system for salmon processing plants
+          - Formulated and managed ML projects focused on process optimization and cost efficiency
+
+    - role: Principal ML/AI Engineer | Research Scientist
+      time: 2021 - 2023
+      company: ALGES – Advanced Laboratory of Geostatistics and Supercomputing, Santiago, Chile
       details: |
-        Project NEMO (P07-048-F). Development and support for modeling, parallelization and optimization of algorithms and Software of NEMO lab for developmental biology phenomenon and applied sciences.
-          - Development of methodology for parameters extraction for Skeleton-like structures in biological images of microscopy
-          - Optimization and correction of SCIAN-Soft software  and graphic models for visual parameters representation
-    - role: Project Coordinator
-      time: 2011 - 2011
-      company: Heidelberg Center para América Latina
+        Applied statistical modeling and machine learning to high-dimensional data.
+
+          - Geometallurgical models integrating spectral and laboratory data
+          - Exploration models (brownfield/greenfield) identifying high-potential mineral targets
+          - Published results and transferred solutions to mining industry stakeholders
+
+    - role: Independent Expert Consultant
+      time: 2016 - Present
+      company: Freelance Projects, Chile
       details: |
-        Project Medical Informatics Santiago-Heidelberg (http://www.heidelbergcenter.cl/medicalinformatics/en/). Support Plan and Development of Excellence center of Medical Informatics in Latin-American between the Universidad de Chile and the Heidelberg Center of University of Heidelberg.
-          - Participate and support the First Summer School “Health Informatics”: Telemedicine and Health Information Systems (2010) and the First version of Diplomado: “Health Information Systems: Social and technical requirements for successful design and deployment” (2011). 
-          - Presently supporting the formulation and presentation of Master in Medical Informatics in the Universidad de Chile          
-    - role: Researcher- Software Engineer
-      time: 2009 - 2011
-      company: Faculty of Physical Sciences and Mathematics, Universidad de Concepción.
+        Advanced analytics and software development consulting.
+
+          - Clay classification using hyperspectral imagery from drones and tripod scanners
+          - Crusher liner wear characterization via point cloud analysis
+          - GPR, magnetometry, and hyperspectral workflows compressed from days to hours
+
+    - role: Researcher & Engineer
+      time: 2010 - 2021
+      company: Universidad de Chile, Universidad de Concepción, Universidad Adolfo Ibáñez
       details: |
-        Implementation of algorithms and mathematical modeling of collision detection, calculation of contact and collision between objects modeled by geometric meshs, soft tissue deformation and haptic force feedback. Implementation of interaction of two haptic devices in dual configuration interface developed for Windows Forms. The work has been synthesized in degree thesis "Collision Detection and Haptic feedback in virtual simulator for surgical training".
-          - Development Platform for Micro and Nano Optics Handling interactive in Real-time using optical tweezers and spatial light modulator (SLM).
-          - Implementation, review and correction of algorithms for physical and haptic (force feedback) interactions. Implementation of texture-based haptic interaction. Developed in MFC and Flash platform.
-          - MCGA visualization interface development for a risk prevention software .Build prototype of graphic module for generator for alerts in real-time monitoring of geopositioning. Developed in Java for project requirements.
+        Biomedical, geometallurgy, and scientific computing projects.
+
+          - Non-parametric Bayesian strategies with hyperspectral data for geometallurgical estimation
+          - Algorithms and systems for microscopy, biomedical imaging, and applied optics
+          - International collaboration (University of Göttingen) in super-resolution microscopy
+          - Teaching Medical Informatics and Image Processing (2012-2019)
+
+    - role: Founder & Engineer
+      time: 2017 - 2021
+      company: Micromundo Chile Spa, Santiago, Chile
+      details: |
+        Educational technologies in optics and microscopy for science outreach.
+
+certifications:
+    title: Certifications
+    list:
+      - name: Generative AI on AWS
+        start: 2024
+        end:
+        organization: AWS
+        credentialid:
+        credentialurl:
+        details:
+
+      - name: People Leadership Credential
+        start: 2024
+        end:
+        organization: Accenture
+        credentialid:
+        credentialurl:
+        details:
+
+      - name: Modelos de Peligro Sismico en Mineria usando Machine Learning
+        start: 2023
+        end:
+        organization: Industry Course
+        credentialid:
+        credentialurl:
+        details:
+
 projects:
     title: Projects
     intro: >
-      Some Projects.
+      Selected projects spanning research, industry, and education.
+
     assignments:
-      - title: Micromundo
+      - title: HIDSAG
+        link: "https://doi.org/10.1038/s41597-023-02061-x"
+        tagline: "Hyperspectral Image Database for Supervised Analysis in Geometallurgy. Published in Scientific Data (Nature)."
+
+      - title: SAG Mill Optimization System
+        link:
+        tagline: "Advanced analytics recommender system for SAG mill operations at Minera Centinela."
+
+      - title: MicroMundo
         link: "https://micromundo.app/"
-        tagline: "Fondo de Capital Semilla para el Desarrollo Ágil de Emprendimientos TIC desde Chile para America Latina y el Mundo” Programa:Corfo Folio/N°: 14SSAF-270."
-
-      - title: Fast SLMIC
-        link: "#"
-        tagline: "Portable and low-cost 3D printed microscopy based on adaptive structured lighting, a new high-resolution alternative in diagnostics and education."
-
-      - title: NEMO
-        link: "http://www.ontogenesis.cl/research_scientificnet_chile.html"
-        tagline: "Quantitative in vivo imaging techniques with high temporal and spatial resolution for molecular neuroscience, development, morphogenesis, neuropathology."
-
-      - title: FONDECYT 1120579
-        link: "http://www.scian.cl/portal/globals.php?COD_SECCION=2988"
-        tagline: "Fast Computational Schemes for the Analysis of Morpho-Topological Data from High Throughput Microscopy."
+        tagline: "Virtual microscopy educational platform for science outreach in optics and technology."
 
       - title: FeelIT
-        link: "https://fsantibanezleal.github.io/portfolio/FeelIT/"
-        tagline: "An interactive platform for the visually impaired with haptic-based virtual relief representation"
+        link:
+        tagline: "Haptic and VR interactive platform for visually impaired users—exploring tactile feedback for virtual objects."
 
-      - title: Holo Optical Twezzers
-        link: "#"
-        tagline: "Interactive platform for micro and nano optics handling in Real-time"
+      - title: HyClusVi
+        link:
+        tagline: "Hyperspectral clustering and visualization for mineral analysis using convolutional autoencoders and t-SNE."
 
-      - title: Project FONDEF (D06I1057)
-        link: "#"
-        tagline: "Arthroscopic Training System Based On Interactive Visualization and Haptic Devices"
+oss:
+    title: Open Source Contributions
+    intro:
 
-      - title: MCGA visualization interface
-        link: "#"
-        tagline: "MCGA visualization interface for a risk prevention software, graphic module for alerts generator in real-time monitoring of geopositioning."
-       
-      - title: Platform VICE 
-        link: "#"
-        tagline: "Project FONDEF (TE06I1014), Development Platform VICE Based Visualization Technology and Haptic Devices (VICE)."
+    contributions:
+      - title: SCIAN-Soft
+        link: "http://www.scian.cl/"
+        tagline: "Scientific image analysis software for biomedical and microscopy applications."
+
+      - title: Micromundo App
+        link: "https://micromundo.app/"
+        tagline: "Virtual microscopy platform for science education."
+
 publications:
     title: Publications
     intro: |
-      Last Scientific Publications.
-    papers:
-      - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
-        link: "https://www.mdpi.com/2075-163X/10/12/1139"
-        authors: "Alvaro F. Egaña, Felipe A. Santibáñez-Leal, Christian Vidal, Gonzalo Díaz, Sergio Liberman, Alejandro Ehrenfeld"
-        conference: "Special Issue: Advanced Spectral Techniques for Mineralogical and Elemental Analysis in Mining and Mineral Processing. Minerals 2020, 10(12), 1139"       
+      Selected peer-reviewed publications. Full list on [Google Scholar](https://scholar.google.cl/citations?user=BE787WgAAAAJ).
 
-      - title: "Multi Pixel Stochastic Approach to Mineral Samples Spectral Analysis for Geometallurgical Modeling"
-        link: "https://gecamin.com/procemin.geomet/index.php#home"
-        authors: "Cristian F. Jara, Alejandro Ehrenfeld, Álvaro F. Egaña, Christian Vidal, Felipe A. Santibáñez-Leal"
-        conference: "Procemin Geomet 2020, Chile"       
+    papers:
+      - title: "HIDSAG: Hyperspectral Image Database for Supervised Analysis in Geometallurgy"
+        authors: Santibañez-Leal, F.A., Ehrenfeld, A., Garrido, F., Navarro, F., & Egaña, A.
+        conference: "Scientific Data (Nature), 2023"
+
+      - title: "Geometallurgical estimation of mineral samples from hyperspectral images and topic modelling"
+        authors: Santibáñez-Leal, F.A., Ehrenfeld, A., Garrido, F., Navarro, F. & Egaña, A.
+        conference: "18th Intl. Conf. on Mineral Processing and Geometallurgy, 2022"
+
+      - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
+        authors: Egaña, A.F., Santibáñez-Leal, F.A., Vidal, C., Díaz, G., Liberman, S. & Ehrenfeld, A.
+        conference: "Minerals, 2020"
 
       - title: "Ore-Waste Discrimination with Adaptive Sampling Strategy"
-        link: "https://link.springer.com/article/10.1007/s11053-020-09625-3"
-        authors: "Felipe A. Santibáñez-Leal, Julián M. Ortiz & Jorge F. Silva" 
-        conference: "Natural Resources Research volume 29, pages 3079–3102 (2020)"
+        authors: Santibáñez-Leal, F.A., Ortiz, J.M. & Silva, J.F.
+        conference: "Natural Resources Research, 2020"
 
-      - title: "Sampling strategies for uncertainty reduction in categorical random fields: Formulation, mathematical analysis and application to multiple-point simulations"
-        link: "https://link.springer.com/article/10.1007/s11004-018-09777-2"
-        authors: "Felipe Santibáñez-Leal, Jorge F. Silva & Julián M. Ortiz" 
-        conference: "Mathematical Geosciences volume 51, pages 579–624 (2019)"
-
-      - title: "An information-theoretic sampling strategy for the recovery of geological images: modeling, analysis, and implementation"
-        link: "http://repositorio.uchile.cl/handle/2250/175050"
-        authors: "Felipe Santibáñez-Leal"
-        conference: "PhD Thesis in Electrical Engineering (2019)"
-        
       - title: "Geological Facies Recovery Based on Weighted l1-Regularization"
-        link: "https://link.springer.com/article/10.1007%2Fs11004-019-09825-5"
-        authors: "Hernan Calderon, Felipe Santibañez, Jorge F. Silva, Julián M. Ortiz & Alvaro Egaña"
-        conference: "Mathematical Geosciences volume 52, pages 593–617 (2020)"
+        authors: Calderon, H., Santibañez, F., Silva, J.F., Ortiz, J.M. & Egaña, A.
+        conference: "Mathematical Geosciences, 2019"
+
+      - title: "Sampling Strategies for Uncertainty Reduction in Categorical Random Fields"
+        authors: Santibañez, F., Silva, J.F. & Ortiz, J.M.
+        conference: "Mathematical Geosciences, 2019"
 
       - title: "Channelized facies recovery based on weighted compressed sensing"
-        link: "https://ieeexplore.ieee.org/document/7569627"
-        authors: "Hernán Calderón, Felipe Santibañez, Jorge F. Silva, Julián Ortiz, Álvaro Egaña"
-        conference: "2016 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM), Rio de Janerio, pp. 1-5 (2016)"
+        authors: Calderón, H., Santibañez, F., Silva, J.F., Ortiz, J. & Egaña, A.
+        conference: "IEEE SAM Workshop, 2016"
 
       - title: "Computational methods for analysis of dynamic events in cell migration"
-        link: "https://pubmed.ncbi.nlm.nih.gov/24467201/"
-        authors: "V Castañeda, M Cerda, F Santibáñez, J Jara, E Pulgar, K Palma, C G Lemus, M Osorio-Reich, M L Concha, S Hartel"
-        conference: " Curr Mol Med. 14(2): pages 291-307 (2014)"       
+        authors: Castañeda, V., Cerda, M., Santibáñez, F., et al.
+        conference: "Current Molecular Medicine, 2014"
 
-      - title: "SOFI of GABAB neurotransmitter receptors in hippocampal neurons elucidates intracellular receptor trafficking and assembly"
-        link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8590/85900N/SOFI-of-GABAB-neurotransmitter-receptors-in-hippocampal-neurons-elucidates-intracellular/10.1117/12.2006215.short?SSO=1"
-        authors: "Anja Huss, Omar Ramírez, Felipe Santibáñez, Andrés Couve, Steffen Härtel, Jörg Enderlein"
-        conference: "Proc. SPIE 8590, Single Molecule Spectroscopy and Superresolution Imaging VI, 85900N (2013)"       
+      - title: "SOFI of GABAB neurotransmitter receptors in hippocampal neurons"
+        authors: Huss, A., Ramírez, O., Santibáñez, F., Couve, A., Härtel, S. & Enderlein, J.
+        conference: "Proceedings SPIE, 2013"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Scientific Programming
+      - name: Python (NumPy, Pandas, Scikit-learn, PyTorch)
         level: 95%
 
-      - name: Python
-        level: 91%
+      - name: Machine Learning & Deep Learning
+        level: 92%
 
-      - name: C/C#
+      - name: Azure (Databricks, Data Factory, Power BI)
+        level: 88%
+
+      - name: MATLAB & Signal Processing
         level: 90%
 
-      - name: IDL
+      - name: Data Engineering (Kedro, Spark, SQL)
+        level: 85%
+
+      - name: MLOps (CI/CD, Model Registry, Monitoring)
+        level: 82%
+
+      - name: Image Processing & Computer Vision
         level: 90%
 
-      - name: Matlab & Simulink
-        level: 91%
+      - name: Geostatistics & Spatial Analysis
+        level: 88%
 
-      - name: HTML5 & CSS
-        level: 80%
+      - name: C++ & CUDA
+        level: 75%
 
-      - name: Assembler
-        level: 80%
-
-      - name: Verilog & Abel
-        level: 70%
+      - name: Project Management & Team Leadership
+        level: 90%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
