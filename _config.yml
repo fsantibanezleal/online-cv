@@ -3,17 +3,13 @@
 # Site Settings
 title: Felipe Santibañez-Leal - Resume
 url: 'https://fsantibanezleal.github.io'
-
-#change it according to your repository name
-baseurl: '/online-cv'
-
-description: Online CV of Felipe Andres Santibañez-Leal
+baseurl: '/online-cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: '#1976d2'
 
 # Tracker
-analytics:
+# analytics:
 
 # Sass/SCSS
 sass:
@@ -21,6 +17,8 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
+compress-site: yes
+
 compress-site: yes
 
 encoding: "utf-8"

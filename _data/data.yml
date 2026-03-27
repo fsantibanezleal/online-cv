@@ -1,434 +1,327 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+    about: False
+    education: True
 
-  # Profile information
-  name: Felipe Santibañez-Leal
-  tagline: I&F Decision Science Assoc. Manager | Technical & Project Leader | Advanced Analytics & Digital Transformation
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Felipe Santibañez-Leal
+    tagline: "I&F Decision Science Assoc. Manager | Technical & Project Leader | Advanced Analytics & Digital Transformation"
+    avatar: profile.png
 
-  # Sidebar links
-  email: felipe@FASL.Work
-  phone:
-  timezone: America/Santiago
-  citizenship: Chile
-  website: https://fsantibanezleal.github.io/
-  linkedin: fsantibanez
-  xing:
-  github: fsantibanezleal
-  telegram:
-  gitlab:
-  bitbucket:
-  bluesky:
-  twitter:
-  stack-overflow:
-  codewars:
-  goodreads:
-  mastodon:
-  hackerrank:
-  leetcode:
-  pdf:
+    # Sidebar links
+    email: felipe@FASL.Work
+    phone:
+    timezone: America/Santiago
+    citizenship: Chile
+    website: fsantibanezleal.github.io
+    linkedin: fsantibanez
+    github: fsantibanezleal
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow:
+    codewars:
+    goodreads:
+    pdf:
 
-  languages:
-    title: Languages
-    info:
-    - idiom: Spanish
-      level: Native
+    languages:
+      - idiom: Spanish
+        level: Native
 
-    - idiom: English
-      level: Professional Working
+      - idiom: English
+        level: Professional Working
 
-  interests:
-    title: Interests
-    info:
-    - item: Data Science & Machine Learning
-      link:
+    interests:
+      - item: Data Science & Machine Learning
+        link:
 
-    - item: Computational Photography & Optics
-      link:
+      - item: Computational Photography & Optics
+        link:
 
-    - item: Geostatistics & Mining Analytics
-      link:
+      - item: Geostatistics & Mining Analytics
+        link:
 
-    - item: Nature & Hiking
-      link:
+      - item: Nature & Hiking
+        link:
 
-    - item: Scientific Education & Outreach
-      link:
+      - item: Scientific Education & Outreach
+        link:
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Advanced Analytics & Project Management leader with a proven track record of integrating
-    data-driven solutions into mission-critical operations. Skilled at aligning business goals
-    with technical innovation, leading cross-functional teams, and delivering measurable improvements
-    across the value chain.
+    title: Career Profile
+    summary: |
+      Advanced analytics leader with 15+ years bridging academia and industry. I align data-driven
+      initiatives with business objectives, guide cross-functional teams toward operational excellence,
+      and scale solutions from pilot to enterprise adoption.
 
-    Experienced in the design and deployment of predictive models, optimization systems, and digital
-    platforms that consistently drive operational KPIs, enhance decision-making, and embed a culture
-    of continuous improvement. Recognized for fostering operational excellence, bridging technical and
-    business domains, and achieving sustainable impact across mining, industrial, and service sectors.
-
-    Key accomplishments include: fleet optimization reducing unplanned stoppages; concentrator
-    initiatives increasing SAG milling throughput and flotation recovery; advanced analytics projects
-    improving production by 10-15%; and engineering workflows for GPR, hyperspectral, and magnetometry
-    data collection accelerated from days to hours.
+      I design and deploy analytical and digital solutions that advance key operational KPIs, enhance
+      reliability and safety, and accelerate insight generation. My work spans mining, manufacturing,
+      and services—delivering throughput and recovery gains in processing plants, boosting industrial
+      productivity, reducing critical environmental alerts, and compressing field-data workflows
+      (GPR, hyperspectral, magnetometry) from days to hours.
 
 education:
-  title: Education
-  info:
-  - degree: Doctor in Electrical Engineering
-    university: Universidad de Chile
-    time: 2013 - 2019
-    details: |
-      Thesis: "An information-theoretic sampling strategy for the recovery of geological images:
-      modeling, analysis, and implementation." Research on inverse problems at low-rate sampling
-      with focus in Geosciences, optimal well placement, compressed sensing, and adaptive sampling.
+    - degree: M.Sc. Program in Project Management
+      university: Universidad de Viña del Mar
+      time: 2024 - Present
+      details:
 
-  - degree: Postgraduate Diploma in Medical Informatics
-    university: Universidad de Chile & University of Heidelberg
-    time: 2011
-    details: |
-      "Health Information Systems: Social and technical requirements for successful design and deployment."
+    - degree: Ph.D. in Electrical Engineering
+      university: Universidad de Chile
+      time: 2013 - 2019
+      details: |
+        Thesis: "An information-theoretic sampling strategy for the recovery of geological images:
+        modeling, analysis, and implementation." Focus on inverse problems, geosciences, compressed
+        sensing, and adaptive sampling strategies. CONICYT National Scholarship.
 
-  - degree: Electronic Civil Engineering (Ingeniero Civil Electronico)
-    university: Universidad de Concepcion
-    time: 2003 - 2009
-    details: |
-      Bachelor of Science in Electrical, Electronics and Communications Engineering.
+    - degree: B.Sc. in Electronic Civil Engineering
+      university: Universidad de Concepción
+      time: 2003 - 2009
+      details: |
+        Recipient of Enrique Molina Garmendia and Bicentenario Scholarships.
 
-  - degree: Instrumental Electronic Technician
-    university: "CEAT Liceo Mauricio Hochschild"
-    time: 1999 - 2002
-    details: |
-      Technical training in instrumental electronics.
+    - degree: Industrial Electronics Technician
+      university: C.E.A.T. Liceo Mauricio Hochschild
+      time: 1999 - 2002
+      details: |
+        Awards for renewable energy projects.
 
 experiences:
-  title: Experiences
-  info:
-  - role: I&F Decision Science Assoc. Manager
-    time: Sep 2025 - Present
-    company: Accenture, Santiago, Chile
-    details: |
-      Guide the strategic and ethical application of insights derived from data.
-      Architect and deliver solutions using Data & AI strategies, open-source modules
-      or industry/function specific technologies, platforms, or software.
-        - Support sales of industry/function focused Data & AI projects
-        - Develop models and algorithms using deep decision science and industry/function orientation to solve business problems
+    - role: I&F Decision Science Assoc. Manager
+      time: Sept. 2025 - Present
+      company: Accenture – Industry X, Santiago, Chile
+      details: |
+        Senior Data Science Lead & Technical Project Lead at CODELCO MinCo-Hidro.
 
-  - role: Senior Data Science Lead | Technical & Project Lead @ MinCo-Hidro CODELCO
-    time: Sep 2025 - Present
-    company: Accenture (Client Assignment), Santiago, Chile
-    details: |
-      On client assignment at Codelco's Advanced Analytics Directorate (MinCo-Hidro)
-      under the Technology & Digitalization Management (GTD).
-        - Lead end-to-end data science initiatives for mining process optimization
-        - Deliver secure, scalable, production-grade solutions tying business value to governance and engineering best practices
-        - Architecture & solution design: modeling strategy, feature engineering, batch/streaming pipelines, APIs/microservices
-        - MLOps & production: CI/CD, model registry, monitoring/observability, A/B testing, safe rollback
+          - Guide strategic and ethical application of data-derived insights across mining operations
+          - Architect and deliver solutions using Data & AI strategies and industry-specific technologies
+          - Support pre-sales and business development for industry-focused Data & AI projects
+          - Develop models and algorithms grounded in decision science and domain expertise
 
-  - role: Data Processing Specialist | Senior Lead Data Scientist | Project Leader
-    time: Jan 2025 - Sep 2025
-    company: Minera Centinela, Antofagasta, Chile
-    details: |
-      Led the development and implementation of an advanced analytics system for SAG mill operations.
-        - Delivered a recommender system generating actionable operational strategies every four hours
-        - Predictive modeling of ore properties, real-time material tracking across stockpiles
-        - Scenario-based optimization resulting in measurable uplift in throughput and recovery efficiency
+    - role: Data Processing Specialist | Senior Lead Data Scientist
+      time: Jan. 2025 - Sept. 2025
+      company: Minera Centinela – AMSA Group, Antofagasta, Chile
+      details: |
+        Led advanced analytics initiatives across the mining value chain.
 
-  - role: Business & Technology Delivery Associate Manager | Project Leader in Advanced Analytics
-    time: Jun 2024 - Jan 2025
-    company: Accenture, Santiago, Chile
-    details: |
-      Led advanced analytics and machine learning projects for large national mining companies.
-        - Development of predictive and prescriptive models for flotation, grinding, and thickening optimization
-        - Managed geophysical risk analysis projects, integrating radar and geological datasets
-        - Coordinated cross-functional teams and stakeholders to align analytical solutions with business objectives
+          - Predictive and optimization models for SAG milling, flotation, and stockpile management; +120 TPH throughput uplift
+          - Digital dashboards for operational recommendation adherence and real-time decision-making
+          - Mineral traceability and stockpile segregation/extraction models improving blending strategies
+          - Site-wide air quality initiative achieving 15% reduction in severe-event alerts
 
-  - role: Independent Consultant | Advanced Analytics & Software Development
-    time: May 2024 - Jun 2024
-    company: Consulting Services / Freelance, Santiago, Chile
-    details: |
-      Consulting and software development in industrial process optimization.
-        - Implemented a clay classification system using hyperspectral imagery from aerial sampling
-        - Designed a crusher lining characterization system using point cloud measurement analysis
+    - role: Business & Technology Delivery Associate Manager
+      time: Jun. 2024 - Dec. 2024
+      company: Accenture – Industry X, Santiago, Chile
+      details: |
+        Strategic advisor in digital transformation for a leading national mining company.
 
-  - role: Project Leader | Senior Data Scientist
-    time: Jan 2022 - May 2024
-    company: CODELCO, Santiago, Chile
-    details: |
-      Led advanced analytics and machine learning initiatives (Azure Databricks, Azure Data Factory, Power BI, Kedro).
-        - Recommendation system for flotation and milling processes
-        - Ore grade and metallurgical property tracking from extraction to plant
-        - Predictive models for environmental pollution (PM10) correlated with mining activity
-        - Built rapid analysis prototypes and intermediate solutions in Streamlit
+          - Led Generative AI initiatives for process improvement and operational communication
+          - Defined functional and application architectures aligned with business requirements
+          - Underground ore transport optimization and geophysical risk analysis solutions
 
-  - role: Head of Analytics and Development Teams | Project Leader
-    time: Aug 2021 - Dec 2021
-    company: Alaya, Santiago, Chile
-    details: |
-      Directed cross-functional teams delivering consulting and software development projects.
-        - Optimization and monitoring solutions for mining, aquaculture, food processing, and manufacturing
-        - Computer vision-based monitoring system for salmon industry operations
+    - role: Project Leader | Senior Data Scientist
+      time: Jan. 2022 - May 2024
+      company: CODELCO, Santiago, Chile
+      details: |
+        Led optimization projects for flotation, milling, and thickening across divisions.
 
-  - role: Principal Applied Scientific Researcher | Postdoctoral Research
-    time: Aug 2019 - Oct 2021
-    company: ALGES - AMTC, Universidad de Chile
-    details: |
-      Applied scientific research in machine learning classification and mathematical modelling
-      of multidimensional data, hyper-spectral images, data fusion and super-resolution.
+          - Achieved +100 TPH throughput increases and measurable copper recovery improvements
+          - Deployed pollution mitigation using computer vision (24-stream monitoring) and Generative AI for natural-language recommendations
+          - Supervised pilots and prototypes integrated into the company's operational portfolio
+          - Technical improvements in data management (Spark Delta, Kedro, LogAnalytics) and Azure migration
 
-  - role: Expert ML/IA - Applied Scientific Researcher
-    time: Aug 2017 - Jul 2021
-    company: ALGES, Universidad de Chile
-    details: |
-      Integration of non-parametric Bayesian strategies and high dimensional hyperspectral data
-      for characterization of uncertainty and real-time estimation of geometallurgical variables.
+    - role: Head of Analytics and Development Teams
+      time: Aug. 2021 - Dec. 2021
+      company: Alaya Digital Solutions, Santiago, Chile
+      details: |
+        Led analytics and development teams across mining, aquaculture, retail, and brewing industries.
 
-  - role: Teacher
-    time: Jul 2017 - Jul 2021
-    company: Universidad San Sebastian, Santiago, Chile
-    details: |
-      Microscopy, Optics, and Image Processing courses. Medical Informatics / Informatics Pathology.
-        - Development of practicals for scientific software, image processing and mathematical analysis
-        - FIJI and ImageJ tools
+          - Achieved 10-15% production improvements in real operations
+          - Computer-vision-based monitoring system for salmon processing plants
+          - Formulated and managed ML projects focused on process optimization and cost efficiency
 
-  - role: Principal Hardware and Software Engineer
-    time: Jan 2017 - Aug 2021
-    company: MicroMundo, Santiago, Chile
-    details: |
-      Developed new educational methodologies based on school scientific research.
-      Integrated low cost microscopy, image processing and virtual microscopy for educational content.
+    - role: Principal ML/AI Engineer | Research Scientist
+      time: 2021 - 2023
+      company: ALGES – Advanced Laboratory of Geostatistics and Supercomputing, Santiago, Chile
+      details: |
+        Applied statistical modeling and machine learning to high-dimensional data.
 
-  - role: Freelancer Software & Web Developer
-    time: Jan 2016 - Nov 2021
-    company: Santiago de Chile
-    details: |
-      Consulting services in big data, analytics, high dimensional information and data science.
-      Implementation of Machine learning, Deep learning, and Optimization solutions based on Python,
-      Kedro, and cloud services (Azure and AWS).
+          - Geometallurgical models integrating spectral and laboratory data
+          - Exploration models (brownfield/greenfield) identifying high-potential mineral targets
+          - Published results and transferred solutions to mining industry stakeholders
 
-  - role: Researcher PhD Candidate
-    time: Jan 2016 - Dec 2017
-    company: Universidad de Chile
-    details: |
-      Research on inverse problems in signal processing and stochastic modeling. Optimal Well Placement
-      problem, compressed sensing, and adaptive sampling strategies for geological image recovery.
+    - role: Independent Expert Consultant
+      time: 2016 - Present
+      company: Freelance Projects, Chile
+      details: |
+        Advanced analytics and software development consulting.
 
-  - role: Software Development for Scientific Computing
-    time: Jul 2011 - Mar 2016
-    company: BNI - SCIAN-Lab, Universidad de Chile
-    details: |
-      Image Processing Software Development for Scientific Computing on Microscopy with Biomedical Applications.
-      Development of Super-resolution microscopy techniques (SOFI). Extension of Millennium Scientific Initiative work.
+          - Clay classification using hyperspectral imagery from drones and tripod scanners
+          - Crusher liner wear characterization via point cloud analysis
+          - GPR, magnetometry, and hyperspectral workflows compressed from days to hours
 
-  - role: Research Assistant & Support Electronic Engineer
-    time: Sep 2010 - Jun 2011
-    company: NEMO - Universidad de Chile
-    details: |
-      Development and support for modeling, parallelization and optimization of algorithms
-      for developmental biology and applied sciences at SCIAN-Lab.
+    - role: Researcher & Engineer
+      time: 2010 - 2021
+      company: Universidad de Chile, Universidad de Concepción, Universidad Adolfo Ibáñez
+      details: |
+        Biomedical, geometallurgy, and scientific computing projects.
 
-  - role: Researcher - Software Engineer
-    time: Apr 2010 - Nov 2010
-    company: CEFOP, Universidad de Concepcion
-    details: |
-      Development Platform for Micro and Nano Optics Handling interactive in Real-time
-      using optical tweezers and spatial light modulator (SLM).
+          - Non-parametric Bayesian strategies with hyperspectral data for geometallurgical estimation
+          - Algorithms and systems for microscopy, biomedical imaging, and applied optics
+          - International collaboration (University of Göttingen) in super-resolution microscopy
+          - Teaching Medical Informatics and Image Processing (2012-2019)
 
-  - role: Development Engineer - Researcher
-    time: Jan 2009 - Jul 2010
-    company: Faculty of Engineering, Universidad de Concepcion
-    details: |
-      Arthroscopic Training System Based On Interactive Visualization and Haptic Devices.
-      Implementation of collision detection, soft tissue deformation and haptic force feedback.
+    - role: Founder & Engineer
+      time: 2017 - 2021
+      company: Micromundo Chile Spa, Santiago, Chile
+      details: |
+        Educational technologies in optics and microscopy for science outreach.
 
 certifications:
-  title: Certifications
-  list:
-  - name: Generative AI on AWS - Deploying & Managing GenAI Services on AWS
-    start: 2024
-    end:
-    organization: AWS
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
+    title: Certifications
+    list:
+      - name: Generative AI on AWS
+        start: 2024
+        end:
+        organization: AWS
+        credentialid:
+        credentialurl:
+        details:
 
-  - name: "ChatGPT Prompt Engineering: Examples & Use Cases"
-    start: 2024
-    end:
-    organization: Online
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
+      - name: People Leadership Credential
+        start: 2024
+        end:
+        organization: Accenture
+        credentialid:
+        credentialurl:
+        details:
 
-  - name: Generative AI for Project Managers
-    start: 2024
-    end:
-    organization: Online
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
-
-  - name: "People Leadership Credential - Chapter 2: Develop"
-    start: 2024
-    end:
-    organization: Accenture
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
-
-  - name: Curso - Modelos de Peligro Sismico en Mineria usando Machine Learning
-    start: 2023
-    end:
-    organization: Industry
-    credentialid:
-    credentialurl:
-    credentialname:
-    details:
+      - name: Modelos de Peligro Sismico en Mineria usando Machine Learning
+        start: 2023
+        end:
+        organization: Industry Course
+        credentialid:
+        credentialurl:
+        details:
 
 projects:
-  title: Projects
-  intro: >
-    Selected research and industry projects spanning data science, computational photography,
-    and scientific computing.
-  assignments:
-  - title: HIDSAG
-    link: "https://doi.org/10.1038/s41597-023-02061-x"
-    tagline: "Hyperspectral Image Database for Supervised Analysis in Geometallurgy - Published in Scientific Data (Nature)"
+    title: Projects
+    intro: >
+      Selected projects spanning research, industry, and education.
 
-  - title: SAG Mill Optimization System
-    link: "#"
-    tagline: "Advanced analytics recommender system for SAG mill operations at Minera Centinela"
+    assignments:
+      - title: HIDSAG
+        link: "https://doi.org/10.1038/s41597-023-02061-x"
+        tagline: "Hyperspectral Image Database for Supervised Analysis in Geometallurgy. Published in Scientific Data (Nature)."
 
-  - title: MicroMundo Virtual Microscopy
-    link: "https://micromundo.app/"
-    tagline: "Educational platform for virtual microscopy and scientific research in schools"
+      - title: SAG Mill Optimization System
+        link:
+        tagline: "Advanced analytics recommender system for SAG mill operations at Minera Centinela."
 
-  - title: FeelIT
-    link: "#"
-    tagline: "Haptic and interactive visualization research project for surgical training"
+      - title: MicroMundo
+        link: "https://micromundo.app/"
+        tagline: "Virtual microscopy educational platform for science outreach in optics and technology."
 
-  - title: HyClusVi
-    link: "#"
-    tagline: "Hyperspectral Clustering and Visualization tool for mineral sample analysis"
+      - title: FeelIT
+        link:
+        tagline: "Haptic and VR interactive platform for visually impaired users—exploring tactile feedback for virtual objects."
+
+      - title: HyClusVi
+        link:
+        tagline: "Hyperspectral clustering and visualization for mineral analysis using convolutional autoencoders and t-SNE."
 
 oss:
-  title: OSS Contributions
-  intro: >
-    Open source tools and research software for scientific computing and data analysis.
-  contributions:
-  - title: SCIAN-Soft
-    link: "http://www.scian.cl/"
-    tagline: "Scientific image analysis software for biomedical applications"
+    title: Open Source Contributions
+    intro:
 
-  - title: Micromundo App
-    link: "https://micromundo.app/"
-    tagline: "Virtual microscopy platform for educational content"
+    contributions:
+      - title: SCIAN-Soft
+        link: "http://www.scian.cl/"
+        tagline: "Scientific image analysis software for biomedical and microscopy applications."
+
+      - title: Micromundo App
+        link: "https://micromundo.app/"
+        tagline: "Virtual microscopy platform for science education."
 
 publications:
-  title: Publications
-  intro: |
-    Selected peer-reviewed publications in geostatistics, machine learning,
-    signal processing, and biomedical imaging.
-  papers:
-  - title: "HIDSAG: Hyperspectral Image Database for Supervised Analysis in Geometallurgy"
-    link: "https://doi.org/10.1038/s41597-023-02061-x"
-    authors: Santibañez-Leal, Ehrenfeld, Garrido, Navarro, Egaña
-    conference: "Scientific Data (Nature), 2023"
+    title: Publications
+    intro: |
+      Selected peer-reviewed publications. Full list on [Google Scholar](https://scholar.google.cl/citations?user=BE787WgAAAAJ).
 
-  - title: "Geometallurgical estimation of mineral samples from hyperspectral images and topic modelling"
-    link: "#"
-    authors: Santibañez-Leal, Ehrenfeld, Garrido, Navarro, Egaña
-    conference: "18th Intl. Conf. on Mineral Processing and Geometallurgy, 2022"
+    papers:
+      - title: "HIDSAG: Hyperspectral Image Database for Supervised Analysis in Geometallurgy"
+        authors: Santibañez-Leal, F.A., Ehrenfeld, A., Garrido, F., Navarro, F., & Egaña, A.
+        conference: "Scientific Data (Nature), 2023"
 
-  - title: "Analysis of seismic tomography and geological data identifying spatial relationships between ore deposits in northern Chile using machine learning"
-    link: "#"
-    authors: Santibañez-Leal et al.
-    conference: "AGU Fall Meeting, 2021"
+      - title: "Geometallurgical estimation of mineral samples from hyperspectral images and topic modelling"
+        authors: Santibáñez-Leal, F.A., Ehrenfeld, A., Garrido, F., Navarro, F. & Egaña, A.
+        conference: "18th Intl. Conf. on Mineral Processing and Geometallurgy, 2022"
 
-  - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
-    link: "https://doi.org/10.3390/min10121139"
-    authors: Egaña, Santibañez-Leal, Vidal, Diaz, Liberman, Ehrenfeld
-    conference: "Minerals, 2020"
+      - title: "A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy"
+        authors: Egaña, A.F., Santibáñez-Leal, F.A., Vidal, C., Díaz, G., Liberman, S. & Ehrenfeld, A.
+        conference: "Minerals, 2020"
 
-  - title: "Ore-Waste Discrimination with Adaptive Sampling Strategy"
-    link: "https://doi.org/10.1007/s11053-020-09625-3"
-    authors: Santibañez-Leal, Ortiz, Silva
-    conference: "Natural Resources Research, 2020"
+      - title: "Ore-Waste Discrimination with Adaptive Sampling Strategy"
+        authors: Santibáñez-Leal, F.A., Ortiz, J.M. & Silva, J.F.
+        conference: "Natural Resources Research, 2020"
 
-  - title: "Multi Pixel Stochastic Approach to Mineral Samples Spectral Analysis for Geometallurgical Modeling"
-    link: "#"
-    authors: Jara, Ehrenfeld, Egaña, Vidal, Santibañez-Leal
-    conference: "Procemin Geomet, 2020"
+      - title: "Geological Facies Recovery Based on Weighted l1-Regularization"
+        authors: Calderon, H., Santibañez, F., Silva, J.F., Ortiz, J.M. & Egaña, A.
+        conference: "Mathematical Geosciences, 2019"
 
-  - title: "Geological Facies Recovery Based on Weighted l1-Regularization"
-    link: "https://doi.org/10.1007/s11004-019-09825-5"
-    authors: Calderon, Santibañez, Silva, Ortiz, Egaña
-    conference: "Mathematical Geosciences, 2019"
+      - title: "Sampling Strategies for Uncertainty Reduction in Categorical Random Fields"
+        authors: Santibañez, F., Silva, J.F. & Ortiz, J.M.
+        conference: "Mathematical Geosciences, 2019"
 
-  - title: "Sampling Strategies for Uncertainty Reduction in Categorical Random Fields"
-    link: "https://doi.org/10.1007/s11004-018-09777-2"
-    authors: Santibañez, Silva, Ortiz
-    conference: "Mathematical Geosciences, 2019"
+      - title: "Channelized facies recovery based on weighted compressed sensing"
+        authors: Calderón, H., Santibañez, F., Silva, J.F., Ortiz, J. & Egaña, A.
+        conference: "IEEE SAM Workshop, 2016"
 
-  - title: "Channelized facies recovery based on weighted compressed sensing"
-    link: "https://doi.org/10.1109/SAM.2016.7569627"
-    authors: Santibañez, Silva, Ortiz
-    conference: "IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM), 2016"
+      - title: "Computational methods for analysis of dynamic events in cell migration"
+        authors: Castañeda, V., Cerda, M., Santibáñez, F., et al.
+        conference: "Current Molecular Medicine, 2014"
 
-  - title: "Computational Methods for Analysis of Dynamic Events in Cell Migration"
-    link: "https://doi.org/10.2174/1566524014666140128113952"
-    authors: Castaneda, Cerda, Santibañez, Jara, Pulgar, Palma, Lemus, Osorio-Reich, Concha, Hartel
-    conference: "Current Molecular Medicine, 2014"
-
-  - title: "SOFI of GABAB neurotransmitter receptors in hippocampal neurons"
-    link: "https://doi.org/10.1117/12.2006215"
-    authors: Huss, Ramirez, Santibañez, Couve, Hartel, Enderlein
-    conference: "SPIE Single Molecule Spectroscopy and Superresolution Imaging VI, 2013"
+      - title: "SOFI of GABAB neurotransmitter receptors in hippocampal neurons"
+        authors: Huss, A., Ramírez, O., Santibáñez, F., Couve, A., Härtel, S. & Enderlein, J.
+        conference: "Proceedings SPIE, 2013"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python (NumPy, Pandas, Scikit-learn, PyTorch)
-    level: 95%
+    toolset:
+      - name: Python (NumPy, Pandas, Scikit-learn, PyTorch)
+        level: 95%
 
-  - name: Machine Learning & Deep Learning
-    level: 92%
+      - name: Machine Learning & Deep Learning
+        level: 92%
 
-  - name: Azure (Databricks, Data Factory, Power BI)
-    level: 88%
+      - name: Azure (Databricks, Data Factory, Power BI)
+        level: 88%
 
-  - name: MATLAB & Signal Processing
-    level: 90%
+      - name: MATLAB & Signal Processing
+        level: 90%
 
-  - name: Data Engineering (Kedro, Spark, SQL)
-    level: 85%
+      - name: Data Engineering (Kedro, Spark, SQL)
+        level: 85%
 
-  - name: MLOps (CI/CD, Model Registry, Monitoring)
-    level: 82%
+      - name: MLOps (CI/CD, Model Registry, Monitoring)
+        level: 82%
 
-  - name: Image Processing & Computer Vision
-    level: 90%
+      - name: Image Processing & Computer Vision
+        level: 90%
 
-  - name: Geostatistics & Spatial Analysis
-    level: 88%
+      - name: Geostatistics & Spatial Analysis
+        level: 88%
 
-  - name: C++ & CUDA
-    level: 75%
+      - name: C++ & CUDA
+        level: 75%
 
-  - name: Project Management & Team Leadership
-    level: 90%
+      - name: Project Management & Team Leadership
+        level: 90%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
