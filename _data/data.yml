@@ -100,7 +100,7 @@ experiences:
           - Guide strategic and ethical application of data-derived insights across mining operations
           - Architect and deliver solutions using Data & AI strategies and industry-specific technologies
           - Support pre-sales and business development for industry-focused Data & AI projects
-          - Develop models and algorithms grounded in decision science and domain expertise
+          - Supervise professional internships: mentored geotechnical risk prediction system industrialization (2026)
 
     - role: Data Processing Specialist | Senior Lead Data Scientist
       time: Jan. 2025 - Sept. 2025
@@ -160,8 +160,9 @@ experiences:
       details: |
         Advanced analytics and software development consulting.
 
-          - Clay classification using hyperspectral imagery from drones and tripod scanners
-          - Crusher liner wear characterization via point cloud analysis
+          - Full-stack crusher wear management platform: 3D point cloud processing, wear forecasting, dual deployment (desktop + web with Next.js/FastAPI/Docker Swarm)
+          - Hyperspectral mineral classification platform using ensemble ML (XGBoost, CNN) with compositional constraints
+          - Clay classification from drone/tripod hyperspectral imagery validated at active mining sites
           - GPR, magnetometry, and hyperspectral workflows compressed from days to hours
 
     - role: Researcher & Engineer
