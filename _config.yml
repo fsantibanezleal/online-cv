@@ -5,7 +5,7 @@ title: Felipe Santibañez-Leal - Resume
 url: 'https://fsantibanezleal.github.io'
 baseurl: '/online-cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic teal oceanstale
+theme_skin: fasl # blue turquoise green berry orange ceramic teal oceanstale fasl
 chrome_mobile_color: '#1976d2'
 
 # Tracker
