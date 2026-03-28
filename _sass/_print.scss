@@ -37,8 +37,37 @@
   }
 
   .skillset,
-  .container-block {
+  .container-block,
+  .item {
     break-inside: avoid;
+  }
+
+  .section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+
+  .experiences-section .item,
+  .educations-section .item,
+  .certifications-section .item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .publications-section .item {
+    break-inside: avoid;
+    margin-bottom: 8px;
+  }
+
+  .recommendations-section .item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 12px;
+  }
+
+  .main-wrapper {
+    padding: 30px;
   }
 
   .skillset .level-bar-inner {
