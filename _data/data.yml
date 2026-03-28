@@ -398,16 +398,16 @@ skills:
 recommendations:
     title: Recommendations
     list:
-      - quote: "Felipe combines deep technical expertise with an ability to translate complex analytics into actionable business value. His work on mineral processing optimization consistently delivered measurable throughput improvements."
-        author: "Mining Operations Director"
+      - recommendation: "Felipe combines deep technical expertise with an ability to translate complex analytics into actionable business value. His work on mineral processing optimization consistently delivered measurable throughput improvements."
+        person: "Mining Operations Director"
         role: "Senior leadership at national mining company"
 
-      - quote: "An exceptional researcher who bridges the gap between theoretical information theory and practical mining applications. His doctoral work on optimal sampling strategies is both mathematically rigorous and industrially relevant."
-        author: "Academic Advisor"
+      - recommendation: "An exceptional researcher who bridges the gap between theoretical information theory and practical mining applications. His doctoral work on optimal sampling strategies is both mathematically rigorous and industrially relevant."
+        person: "Academic Advisor"
         role: "Professor, Department of Electrical Engineering"
 
-      - quote: "Felipe led our analytics team through multiple simultaneous projects across mining, aquaculture, and retail — delivering real production improvements in each. His technical breadth and project leadership are remarkable."
-        author: "Technology Director"
+      - recommendation: "Felipe led our analytics team through multiple simultaneous projects across mining, aquaculture, and retail — delivering real production improvements in each. His technical breadth and project leadership are remarkable."
+        person: "Technology Director"
         role: "Digital solutions company"
 
 footer: >
