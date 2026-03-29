@@ -220,6 +220,10 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "FeelIT 2.0 — Haptic Accessibility Workbench"
+        link:
+        tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 4 workspaces, 49 tests, hardware-optional."
+
       - title: Crusher Liner Wear Management System
         link:
         tagline: "Full-stack platform for 3D point cloud analysis, cylindrical wear profiling, and remaining-life forecasting of industrial crusher liners."
