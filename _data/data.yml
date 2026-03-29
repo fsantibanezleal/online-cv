@@ -256,6 +256,10 @@ projects:
         link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
         tagline: "3D simulation of collective cell migration on a spherical zebrafish embryo surface using Three.js and FastAPI."
 
+      - title: GrainSight — Particle Size Analyzer
+        link: "https://github.com/fsantibanezleal/FASL_3D_GrainSize"
+        tagline: "3D granulometry from RGB-D data: watershed segmentation, 18 per-grain metrics, Rosin-Rammler PSD, D-values, sieve simulation."
+
       - title: 3D Distance Profiler
         link: "https://github.com/fsantibanezleal/FASL_3D_Distance_Profiler"
         tagline: "RGB-D depth profiling for granulometry — surface reconstruction, ISO 4287 roughness, and curvature analysis from depth camera data."
