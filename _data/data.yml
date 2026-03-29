@@ -77,6 +77,12 @@ education:
         modeling, analysis, and implementation." Focus on inverse problems, geosciences, compressed
         sensing, and adaptive sampling strategies. CONICYT National Scholarship.
 
+    - degree: Postgraduate Diploma in Medical Informatics
+      university: Universidad de Chile & University of Heidelberg
+      time: 2011
+      details: |
+        Joint program with Heidelberg Center for Latin America.
+
     - degree: B.Sc. in Electronic Civil Engineering
       university: Universidad de Concepción
       time: 2003 - 2009
@@ -85,7 +91,7 @@ education:
 
     - degree: Industrial Electronics Technician
       university: C.E.A.T. Liceo Mauricio Hochschild
-      time: 1999 - 2002
+      time: 1998 - 2002
       details: |
         Awards for renewable energy projects.
 
@@ -249,6 +255,14 @@ projects:
       - title: 3D Embryo Cell Migration Simulator
         link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
         tagline: "3D simulation of collective cell migration on a spherical zebrafish embryo surface using Three.js and FastAPI."
+
+      - title: GrainSight — Particle Size Analyzer
+        link: "https://github.com/fsantibanezleal/FASL_3D_GrainSize"
+        tagline: "3D granulometry from RGB-D data: watershed segmentation, 18 per-grain metrics, Rosin-Rammler PSD, D-values, sieve simulation."
+
+      - title: 3D Distance Profiler
+        link: "https://github.com/fsantibanezleal/FASL_3D_Distance_Profiler"
+        tagline: "RGB-D depth profiling for granulometry — surface reconstruction, ISO 4287 roughness, and curvature analysis from depth camera data."
 
       - title: SOFI Super-Resolution Microscopy
         link: "https://github.com/fsantibanezleal/FASL_SOFI_QDOTS"
