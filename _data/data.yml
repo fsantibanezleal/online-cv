@@ -221,7 +221,7 @@ projects:
 
     assignments:
       - title: "FeelIT 2.0 — Haptic Accessibility Workbench"
-        link:
+        link: "https://github.com/fsantibanezleal/UDEC_FEELIT"
         tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 4 workspaces, 49 tests, hardware-optional."
 
       - title: Crusher Liner Wear Management System
