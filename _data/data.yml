@@ -16,7 +16,7 @@ sidebar:
     phone:
     timezone: America/Santiago
     citizenship: Chile
-    website: fsantibanezleal.github.io
+    website: fasl.work #do not add http://
     linkedin: fsantibanez
     github: fsantibanezleal
     gitlab:
@@ -296,9 +296,9 @@ projects:
         link: "https://github.com/fsantibanezleal/Udec_Robotic_Writer"
         tagline: "5-DOF robotic arm simulation for letter placement using Denavit-Hartenberg kinematics and trajectory planning."
 
-      - title: MicroMundo
+      - title: "Micromundo — Virtual Microscopy & Science Education"
         link: "https://micromundo.app/"
-        tagline: "Virtual microscopy educational platform for science outreach in optics and technology."
+        tagline: "Educational platform integrating virtual microscopy, collaborative teaching, and 3D-printed microscopes for schools. Team: micromundo.team | App: micromundo.app"
 
       - title: FeelIT
         link:
