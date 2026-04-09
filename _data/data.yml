@@ -220,6 +220,10 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "Mine Pile Visualizer — Stockpile & Circuit Explorer"
+        link: "https://github.com/fsantibanezleal/MINE_PILE_VIZ_TS"
+        tagline: "Local-first Next.js 16 app for mining circuit topology, 3D stockpile voxels, live material state, and profiler history. React Three Fiber + Apache Arrow."
+
       - title: "FeelIT 2.0 — Haptic Accessibility Workbench"
         link: "https://github.com/fsantibanezleal/UDEC_FEELIT"
         tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 4 workspaces, 49 tests, hardware-optional."
