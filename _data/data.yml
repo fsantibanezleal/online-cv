@@ -280,6 +280,10 @@ projects:
         link: "https://github.com/fsantibanezleal/IDS_OWP"
         tagline: "Information-theoretic framework for optimal well placement using adaptive entropy maximization with (1-1/e) guarantee."
 
+      - title: "PhD Thesis — Information-Theoretic Sampling"
+        link: "http://repositorio.uchile.cl/handle/2250/175050"
+        tagline: "Doctoral thesis on optimal sensor placement in binary random fields. Introduced AdSEMES with (1-1/e) submodularity guarantee. Published in Mathematical Geosciences (2019) and Natural Resources Research (2020)."
+
       - title: 3D Haptic Simulation
         link: "https://github.com/fsantibanezleal/UDEC_Haptic_SIM"
         tagline: "Octree collision detection and spring-damper force feedback for virtual object interaction via Three.js and WebSocket."
