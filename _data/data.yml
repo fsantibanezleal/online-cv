@@ -226,15 +226,27 @@ projects:
 
       - title: "FeelIT 2.0 — Haptic Accessibility Workbench"
         link: "https://github.com/fsantibanezleal/UDEC_FEELIT"
-        tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 4 workspaces, 49 tests, hardware-optional."
+        tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 5 workspaces, 116 tests, hardware-optional with a native haptic-device bridge."
 
       - title: Crusher Liner Wear Management System
         link:
         tagline: "Full-stack platform for 3D point cloud analysis, cylindrical wear profiling, and remaining-life forecasting of industrial crusher liners."
 
+      - title: "Hyperspectral Mineral Analysis by Topic Modelling"
+        link: "https://lda-hsi.fasl-work.com"
+        tagline: "Unsupervised topic models (LDA/ProdLDA/ETM) over hyperspectral mineral images; a design-space sweep of 17 representations finds MI-weighted bands (V20) most separable. From a 2022 conference paper to a live platform."
+
       - title: Hyperspectral Mineral Classification Platform
         link:
-        tagline: "ML platform for mineral identification from VNIR/SWIR imagery using ensemble methods, CNNs, and compositional constraints."
+        tagline: "Supervised ML platform for mineral identification from VNIR/SWIR imagery using ensemble methods, CNNs, and compositional constraints."
+
+      - title: "Auralis — 6D Audio Embedding Visualizer"
+        link: "https://auralis.fasl-work.com"
+        tagline: "Browser app mapping audio onto seven embedding tracks (spectral, PCA/t-SNE/UMAP, Tonnetz, YAMNet, CLAP) as interactive 3D trajectories over 102 curated clips. FastAPI + Three.js."
+
+      - title: "Finn — Personal Finance & Market Forecasting"
+        link: "https://finn.fasl-work.com"
+        tagline: "Market-analytics demo: walk-forward-validated forecasting, full risk battery, cost-aware backtests, FinBERT news sentiment, and LATAM coverage (IPSA + Chile macro). FastAPI + HTMX + Plotly."
 
       - title: Mining Process Optimization Platform
         link:
@@ -268,7 +280,7 @@ projects:
         link: "https://github.com/fsantibanezleal/FASL_3D_GrainSize"
         tagline: "3D granulometry from RGB-D data: watershed segmentation, 18 per-grain metrics, Rosin-Rammler PSD, D-values, sieve simulation."
 
-      - title: 3D Distance Profiler
+      - title: "SurfaceScope — RGB-D Surface Profiler"
         link: "https://github.com/fsantibanezleal/FASL_3D_Distance_Profiler"
         tagline: "RGB-D depth profiling for granulometry — surface reconstruction, ISO 4287 roughness, and curvature analysis from depth camera data."
 
@@ -303,10 +315,6 @@ projects:
       - title: "Micromundo — Virtual Microscopy & Science Education"
         link: "https://micromundo.app/"
         tagline: "Educational platform integrating virtual microscopy, collaborative teaching, and 3D-printed microscopes for schools. Team: micromundo.team | App: micromundo.app"
-
-      - title: FeelIT
-        link:
-        tagline: "Haptic and VR interactive platform for visually impaired users — exploring tactile feedback for virtual objects."
 
       - title: HyClusVi
         link:
