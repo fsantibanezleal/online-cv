@@ -220,6 +220,18 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "CAOS Seismic — Honest Probabilistic Earthquake Forecasting"
+        link: "https://seismic.fasl-work.com"
+        tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
+
+      - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
+        link:
+        tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
+
+      - title: "Mantia — Agentic Industrial-Maintenance Suite (private)"
+        link:
+        tagline: "Private suite of agentic maintenance assistants (work orders, spares, notifications) on a shared agent core with a generic OData connector — mock in dev, real in production."
+
       - title: "Mine Pile Visualizer — Stockpile & Circuit Explorer"
         link: "https://github.com/fsantibanezleal/MINE_PILE_VIZ_TS"
         tagline: "Local-first Next.js 16 app for mining circuit topology, 3D stockpile voxels, live material state, and profiler history. React Three Fiber + Apache Arrow."
