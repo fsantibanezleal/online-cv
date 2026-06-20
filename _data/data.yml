@@ -224,6 +224,14 @@ projects:
         link: "https://seismic.fasl-work.com"
         tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
 
+      - title: "CAOS SimLab — A Didactic Lab for Simulation (DES & ABM)"
+        link: "https://simlab.fasl-work.com"
+        tagline: "Open lab for Discrete-Event Simulation and Agent-Based Modeling: land in a running sim, tune params, watch the dynamics. Ten scenarios over six viz families; a run is a pure function of (params, seed) so replay is exact; live in-browser via Pyodide; validated vs theory (M/M/c ↔ Erlang-C)."
+
+      - title: "RotorVitals — Bearing Fault Diagnosis by Envelope Analysis"
+        link: "https://rotorvitals.fasl-work.com"
+        tagline: "Explainable rolling-element bearing diagnosis from vibration, entirely in the browser: kinematic defect frequencies (BPFO/BPFI/BSF) → band-pass → Hilbert envelope → spectrum → harmonic scoring. Closed-form DSP, no dataset required, calibrated to the CWRU benchmark. Part of the Faena hub."
+
       - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
         link:
         tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
