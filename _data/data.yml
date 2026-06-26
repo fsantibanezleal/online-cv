@@ -238,7 +238,7 @@ projects:
 
       - title: "PINN-Lab — A Runnable Catalogue of Physics-Informed Neural Networks"
         link: "https://pinnlab.fasl-work.com"
-        tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/FEM/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
+        tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/benchmark/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
 
       - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
         link:
