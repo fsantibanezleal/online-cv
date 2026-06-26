@@ -232,6 +232,14 @@ projects:
         link: "https://rotorvitals.fasl-work.com"
         tagline: "Explainable rolling-element bearing diagnosis from vibration, entirely in the browser: kinematic defect frequencies (BPFO/BPFI/BSF) → band-pass → Hilbert envelope → spectrum → harmonic scoring. Closed-form DSP, no dataset required, calibrated to the CWRU benchmark. Part of the Faena hub."
 
+      - title: "QLab — Quantum Laboratory"
+        link: "https://qlab.fasl-work.com"
+        tagline: "Didactic quantum-computing lab running real frameworks (Qiskit, PennyLane, Cirq, Stim) on 20 cases, each next to its classical baseline. Honest verdict, with the costs on screen: 0/20 practical speedups — at lab scale classical still wins. Reproducible traces, simulator-only (no QPU claims)."
+
+      - title: "PINN-Lab — A Runnable Catalogue of Physics-Informed Neural Networks"
+        link: "https://pinnlab.fasl-work.com"
+        tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/FEM/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
+
       - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
         link:
         tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
