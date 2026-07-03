@@ -240,6 +240,22 @@ projects:
         link: "https://faena.fasl-work.com"
         tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile: 3 live today (ChargeCascade, RotorVitals, CutoffGrade), 7 in development, ~29 planned. Astro static, bilingual, data-driven."
 
+      - title: "CutoffGrade Studio — Lane's Optimal Cut-off Grade"
+        link: "https://cutoffgrade.fasl-work.com"
+        tagline: "Open studio for Lane's optimal cut-off grade: from a grade-tonnage curve plus prices/costs/capacities it computes the NPV-maximising declining cut-off trajectory, NPV and mine life, live in-browser. The exact Lane optimizer is the authority; the learned ONNX models are for speed only, not accuracy. Synthetic base case, openly labelled. Part of the Faena hub."
+
+      - title: "Atalaya — A Watchtower over Chile's Open Data"
+        link: "https://atalaya.fasl-work.com"
+        tagline: "Data-engineering + IR pipeline over Chile's Data Observatory: harvests and profiles 1,017 datasets and mines five cross-dataset relations (same-source, semantic MiniLM/ONNX, spatial, joinability via MinHash, correlation with permutation-null + FDR) into an explorable knowledge graph, with client-side semantic search. Honest about evidence strength, never causal."
+
+      - title: "MineHaul (minehaulsim) — Mine-Haulage Discrete-Event Simulation"
+        link: "https://pypi.org/project/minehaulsim/"
+        tagline: "Open-source Python package (Apache-2.0, on PyPI): deterministic discrete-event simulation of open-pit and underground mine haulage on constrained road networks, with seeded parametric mine generators. Byte-deterministic, 227 tests. Real engine, synthetic mines (class-representative, not OEM). Companion generator for DispatchLab."
+
+      - title: "Lidar3D — Streaming 3D Reconstruction Lab"
+        link: "https://lidar3d.fasl-work.com"
+        tagline: "Early research lab for feed-forward streaming 3D reconstruction: an RGB/LiDAR stream becomes a camera trajectory, dense depth and a fused point cloud (a from-scratch depth+pose net, ~0.28 m ATE on TUM, plus a vendored model). The site replays the baked cloud across four renderers under one transform, with a strict renderer-honesty discipline — replay, not real-time; not SLAM."
+
       - title: "QLab — Quantum Laboratory"
         link: "https://qlab.fasl-work.com"
         tagline: "Didactic quantum-computing lab running real frameworks (Qiskit, PennyLane, Cirq, Stim) on 20 cases, each next to its classical baseline. Honest verdict, with the costs on screen: 0/20 practical speedups — at lab scale classical still wins. Reproducible traces, simulator-only (no QPU claims)."
