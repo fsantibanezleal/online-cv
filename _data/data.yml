@@ -220,6 +220,42 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "ChronoScope — Univariate Forecasting Atlas with a Foundation-Model Tier"
+        link: "https://chronoscope.fasl-work.com"
+        tagline: "Univariate time-series forecasting atlas: 15 diagnostic cases through one 19-method ladder (classical up to four zero-shot foundation models: Chronos-Bolt, Chronos-2, TimesFM-2.5, TiRex-2), scored by backtested MASE/sMAPE/coverage, baked offline and replayed in a static SPA. Honest: on real M4-hourly a one-line SeasonalNaive (MASE 0.641) beats TimesFM-2.5 (0.729)."
+
+      - title: "TailWatch — InSAR Ground-Deformation Studio for Tailings Dams & Slopes"
+        link: "https://tailwatch.fasl-work.com"
+        tagline: "In-browser InSAR ground-deformation studio for tailings dams and slopes: a LOS displacement cube with per-pixel OLS velocity, a Fukuzono inverse-velocity time-of-failure forecaster with split-conformal bands, and two live ONNX models, over 5 physics-simulated cases plus 1 real Sentinel-1 sample. Honest: on the held-out benchmark the classical velocity map (AUC 0.968) beats the learned anomaly autoencoder (0.898). Part of the Faena hub."
+
+      - title: "DispatchLab — Truck-to-Shovel Dispatch Bench for Open-Pit Mining"
+        link: "https://dispatchlab.fasl-work.com"
+        tagline: "In-browser truck-to-shovel dispatch bench on a deterministic open-pit DES: nine policies (heuristic, OR-Hungarian, learned) compared under common random numbers against a closed-form capacity oracle, over cases from minehaulsim (the author's own Apache-2.0 PyPI package). Honest: the distilled Monte-Carlo rollout is a published null, winning 0 of 8 seeds under cycle-time uncertainty. Part of the Faena hub."
+
+      - title: "ChancaDEM — Crusher-Comminution Studio (Population-Balance Engine)"
+        link: "https://chancadem.fasl-work.com"
+        tagline: "In-browser crusher-comminution studio: a pure-TypeScript closed-form engine (Whiten population balance solved live by LU + Evertsson capacity + Bond power) computes product gradation, throughput and power in sub-millisecond, with the secondary-cone lane calibrated to 10 published HP500 surveys (leave-one-out MAPE 12.09% beating both negative controls). Honest: despite the name it does NOT run DEM, the 3D chamber is a kinematic animation. Part of the Faena hub."
+
+      - title: "CoreLog Vision — Drill-Core Logging & Lithology Classification Workbench"
+        link: "https://corelog.fasl-work.com"
+        tagline: "Browser-native drill-core logging workbench: a 6-class lithology CNN plus a Mahalanobis out-of-distribution flag that routes unfamiliar core to a novelty flag instead of forcing a class, run client-side on synthetic trays with a real DCID photo lane as the evaluation-only set. Honest: the 0.994 accuracy is synthetic-vs-synthetic, a label-permutation control collapses to chance, and the shipped OOD detector replaced an incumbent that scored worse than chance (0.3078). Part of the Faena hub."
+
+      - title: "PitForge — Exact Ultimate Pit Limit & Nested Whittle Pit-Shell Workbench"
+        link: "https://pitforge.fasl-work.com"
+        tagline: "Open-pit mine-design workbench that solves the ultimate pit limit exactly (maximum-weight closure reduced to a Dinic min-cut, live in the browser) and derives nested Whittle shells, reproducing three published MineLib optima to <= 2e-9 relative error and self-checking every solve with the max-flow duality identity. Honest: the learned grade-nn (R2 0.9613 vs ordinary kriging 0.958) is a tie, never a win, and the CPIT schedule publishes its 10.46% integrality gap. Part of the Faena hub."
+
+      - title: "ProspectMap — Mineral Prospectivity Workbench with a Published Null Result"
+        link: "https://prospectmap.fasl-work.com"
+        tagline: "Mineral-prospectivity workbench computing a Weights-of-Evidence posterior live in the browser over stacked layers, with conditional-independence testing and random-vs-spatial CV inflation made first-class. Honest: on the real US Midcontinent MVT Zn-Pb belt (Lawley et al. 2022) the committed verdict is ranking_win false, PU-Conformal (0.656) loses to 1989 Weights of Evidence (0.732), and a trivial distance-to-deposit null (0.783) ties the best model, so most apparent skill is spatial proximity. Part of the Faena hub."
+
+      - title: "FragmentIQ — Post-Blast Muckpile Fragmentation Analysis Workbench"
+        link: "https://fragmentiq.fasl-work.com"
+        tagline: "Post-blast fragmentation workbench delineating muckpile fragments by watershed in the browser and deriving a mass-weighted particle-size distribution with a Rosin-Rammler fit and P10/P50/P80, scored against generator truth on synthetic cases with 5 real Gole-Gohar photos shipped as an explicitly RELATIVE lane (no scale, no sieve truth). Honest: the over-segmentation bias is shown in the artifact (116 recovered vs 70 true), and the learned refinement gain is indicative not significant at n=8. Part of the Faena hub."
+
+      - title: "Pulso — Well-Test Diagnostic-Curve Shape Clustering and Attribution"
+        link: "https://pulso.fasl-work.com"
+        tagline: "Unsupervised catalogue of flow-behaviour classes for fractured reservoirs: it clusters the shape of pressure-transient Bourdet-derivative curves with DTW k-medoids, attributes each class to fracture-network descriptors (Random Forest + SHAP), and classifies a user curve against baked medoids with conformal prediction, reproducing and extending Kamel Targhi et al. 2026 on a real 4TU corpus (~4768 curves, silhouette 0.72/0.86 against a 0.137 single-regime null). Honest: the learned models' accuracy is against the pipeline's own k-medoids labels (training-set silhouette a weak 0.190), not external ground truth, and the aquifer transfer carries shape but not physics."
+
       - title: "CAOS Seismic — Honest Probabilistic Earthquake Forecasting"
         link: "https://seismic.fasl-work.com"
         tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
@@ -238,7 +274,7 @@ projects:
 
       - title: "Faena — Mining-Analytics Hub"
         link: "https://faena.fasl-work.com"
-        tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile: 3 live today (ChargeCascade, RotorVitals, CutoffGrade), 7 in development, ~29 planned. Astro static, bilingual, data-driven."
+        tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile: 11 live today (ChargeCascade, RotorVitals, CutoffGrade, TailWatch, DispatchLab, ChancaDEM, CoreLog, PitForge, ProspectMap, FragmentIQ, FrothSeg), the rest planned. Astro static, bilingual, data-driven."
 
       - title: "CutoffGrade Studio — Lane's Optimal Cut-off Grade"
         link: "https://cutoffgrade.fasl-work.com"
