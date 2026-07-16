@@ -256,6 +256,14 @@ projects:
         link: "https://pulso.fasl-work.com"
         tagline: "Unsupervised catalogue of flow-behaviour classes for fractured reservoirs: it clusters the shape of pressure-transient Bourdet-derivative curves with DTW k-medoids, attributes each class to fracture-network descriptors (Random Forest + SHAP), and classifies a user curve against baked medoids with conformal prediction, reproducing and extending Kamel Targhi et al. 2026 on a real 4TU corpus (~4768 curves, silhouette 0.72/0.86 against a 0.137 single-regime null). Honest: the learned models' accuracy is against the pipeline's own k-medoids labels (training-set silhouette a weak 0.190), not external ground truth, and the aquifer transfer carries shape but not physics."
 
+      - title: "CardioPINN — Physics-Informed Cardiac Inverse-Problem Lab"
+        link: "https://cardiopinn.fasl-work.com"
+        tagline: "Two-case lab in physics-informed cardiac reconstruction on 100% real measured data (EDGAR ECGi beats; one thoracic-aorta 4D-flow MRI), scoped as a complement to classical methods, not a replacement: calibrated per-node uncertainty (2-sigma ~0.90) and a resolved relative-pressure field, outputs a deterministic estimate cannot give, at point-accuracy parity with Tikhonov (stated in-app). Two CI-tested autograd advances (spatial 0.066 vs 4.19 mmHg; temporal dv/dt exact to ~6 frames/cycle) and three published nulls."
+
+      - title: "ADRA — Adversarial Dev Review Agent"
+        link: "https://adra.fasl-work.com"
+        tagline: "Deterministic-first, adversarial-validation engine for the software lifecycle: deterministic tools (git, the exact CI command, bundle validation, leak scan, SQL probes) run first and become grounding the model may not contradict plus an immutable provenance log; a blocking critic tries to refute each artifact, an LLM-as-judge scores with swap-and-average, and the loop escalates to a human where nothing deterministic backs the verdict. Six skills, offline-capable, no API key. On PyPI as adra."
+
       - title: "Croquis — On-Device 3D Reconstruction of Real Spaces on Android"
         link: "https://github.com/fsantibanezleal/Croquis"
         tagline: "Android app (Expo shell + native Kotlin/C++ core) that turns a walk-through (camera, IMU, GPS, no lidar) into a metric, consistency-gated point-cloud reconstruction computed fully on the phone, stored on the phone as a scene library with an honest uncertainty budget; imagery never leaves the device. Sensors own trajectory and scale (ARCore VIO); the neural depth model contributes geometry only. In development (v0), Apache-2.0, with a local-GPU reprocessor (Croquis Station)."
