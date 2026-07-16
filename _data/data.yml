@@ -256,6 +256,10 @@ projects:
         link: "https://pulso.fasl-work.com"
         tagline: "Unsupervised catalogue of flow-behaviour classes for fractured reservoirs: it clusters the shape of pressure-transient Bourdet-derivative curves with DTW k-medoids, attributes each class to fracture-network descriptors (Random Forest + SHAP), and classifies a user curve against baked medoids with conformal prediction, reproducing and extending Kamel Targhi et al. 2026 on a real 4TU corpus (~4768 curves, silhouette 0.72/0.86 against a 0.137 single-regime null). Honest: the learned models' accuracy is against the pipeline's own k-medoids labels (training-set silhouette a weak 0.190), not external ground truth, and the aquifer transfer carries shape but not physics."
 
+      - title: "Croquis — On-Device 3D Reconstruction of Real Spaces on Android"
+        link: "https://github.com/fsantibanezleal/Croquis"
+        tagline: "Android app (Expo shell + native Kotlin/C++ core) that turns a walk-through (camera, IMU, GPS, no lidar) into a metric, consistency-gated point-cloud reconstruction computed fully on the phone, stored on the phone as a scene library with an honest uncertainty budget; imagery never leaves the device. Sensors own trajectory and scale (ARCore VIO); the neural depth model contributes geometry only. In development (v0), Apache-2.0, with a local-GPU reprocessor (Croquis Station)."
+
       - title: "CAOS Seismic — Honest Probabilistic Earthquake Forecasting"
         link: "https://seismic.fasl-work.com"
         tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
@@ -304,9 +308,9 @@ projects:
         link:
         tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
 
-      - title: "Mantia — Agentic Industrial-Maintenance Suite (private)"
+      - title: "Mantia — Anonymized Hub of Agentic Tools for SAP Plant Maintenance (private)"
         link:
-        tagline: "Private suite of agentic maintenance assistants (work orders, spares, notifications) on a shared agent core with a generic OData connector — mock in dev, real in production."
+        tagline: "An anonymized hub cataloguing a family of agentic tools oriented to SAP Plant Maintenance (PM): work-order generation, spares planning, notification triage, scheduling and more, on one shared agent core with a mock-or-real connector to the enterprise system. Delivered under confidentiality: general description only, no client data."
 
       - title: "Mine Pile Visualizer — Stockpile & Circuit Explorer"
         link: "https://github.com/fsantibanezleal/MINE_PILE_VIZ_TS"
@@ -413,6 +417,30 @@ oss:
     intro:
 
     contributions:
+      - title: "minehaulsim (PyPI)"
+        link: "https://pypi.org/project/minehaulsim/"
+        tagline: "Published Python package (Apache-2.0): deterministic discrete-event simulation of open-pit and underground mine haulage on constrained road networks, with seeded parametric mine generators. Byte-deterministic, 227 tests. Companion generator for DispatchLab."
+
+      - title: "oreblocks (PyPI)"
+        link: "https://pypi.org/project/oreblocks/"
+        tagline: "Published Python package: synthetic 3D ore-body block models of the MineLib nature (seeded deposit archetypes, bench structure, grade fields), for testing and benchmarking mine-planning tooling on reproducible, license-free data."
+
+      - title: "preqts (PyPI)"
+        link: "https://pypi.org/project/preqts/"
+        tagline: "Published Python package: prequential (test-then-update) streaming evaluation for stateful time-series forecasters, so a model is scored the way it would actually be used online rather than on a single frozen split."
+
+      - title: "pygeotypes (PyPI)"
+        link: "https://pypi.org/project/pygeotypes/"
+        tagline: "Published Python package: shape catalogues of physical response signals (derivative preprocessing, banded DTW, PAM k-medoids), the unsupervised curve-shape clustering core behind the Pulso well-test GeoTypes work."
+
+      - title: "adra (PyPI)"
+        link: "https://pypi.org/project/adra/"
+        tagline: "Published Python package: ADRA, an Adversarial Dev Review Agent, a deterministic-first adversarial-validation engine that verifies review findings by trying to refute them before they are reported. Live console at adra.fasl-work.com."
+
+      - title: "geoscena (PyPI)"
+        link: "https://pypi.org/project/geoscena/"
+        tagline: "Published Python package: an area-of-interest public-geodata acquisition plus SceneBundle fusion and meshing core for 3D area reconstruction from open geospatial sources."
+
       - title: SCIAN_LEO_CPM
         link: "https://github.com/fsantibanezleal/SCIAN_LEO_CPM"
         tagline: "Cellular Potts Model simulator for zebrafish embryonic cell migration."
