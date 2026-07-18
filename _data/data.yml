@@ -312,6 +312,10 @@ projects:
         link: "https://pinnlab.fasl-work.com"
         tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/benchmark/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
 
+      - title: "ImageLab — One Image Across the Full Spectrum of Representations"
+        link: "https://imglab.fasl-work.com"
+        tagline: "Interactive lab that writes a single image in eleven representations (orthonormal Fourier/DCT/wavelet/KLT transforms, overcomplete sparse dictionaries, geometric primitives, a SIREN implicit neural field, symbolic CPPN formula art, Fourier-descriptor epicycles, and learned VAE and diffusion latents), each with its parameters editable live. The measured thesis: editability is U-shaped, peaking at the designed-structure pole (local, exact edits; KLT/wavelet locality ~1.0) and the learned-manifold pole (semantic, entangled edits) and collapsing to noise between (Fourier/DCT ~0.16-0.23), backed by a real cross-family rate-distortion and fixed-budget-fidelity benchmark. Everything is computed live in-browser (TypeScript + WebGL2) or baked by a seed-deterministic Python pipeline, with PSNR/SSIM/MS-SSIM shared across both. Sibling of PINN-Lab, QLab and SimLab; bilingual EN/ES, light/dark."
+
       - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
         link:
         tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
