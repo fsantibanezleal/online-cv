@@ -220,6 +220,10 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "FrothSeg — Flotation-Froth Instance Segmentation Lab (Browser ML)"
+        link: "https://frothseg.fasl-work.com"
+        tagline: "Browser-native instance segmentation of flotation froth (per-bubble delineation via client-side ONNX): seven classical methods vs LamellaStar, a real published four-head model shipped as a three-seed logit-mean ensemble (N1 mean AP 0.5186, AP50 0.8279, PQ 0.7359) with SAM2 / Cellpose-SAM teachers and a distilled browser head. Honest core: no public real froth dataset exists (the search is recorded as a null, Roboflow dropped), so froth cases are synthetic and BBBC038 (64 real dense-touching images, CC0) is an adjacent-domain transfer probe that explicitly does NOT clear the froth blocker; the transfer study refuted its own hypothesis. Part of the Faena hub."
+
       - title: "Fisura — Materials-Damage Vision Lab (Crack Detection to Engineering Units)"
         link: "https://fisura.fasl-work.com"
         tagline: "Public research lab on seeing damage in built materials: one surface image in, damage detected and quantified in engineering units (pixel-to-mm width/length, orientation, density, growth between inspections, 2D digital image correlation), with a full method ladder (classical pipeline, learned SOTA segmentation, foundation models, anomaly detection) compared on the same open cases with the same metrics. Masks are only ever the input to a number. Offline heavy lane plus a client-side browser live lane. Honest: a method-comparison lab, not a certified inspection tool; under active build-out."
