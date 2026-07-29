@@ -220,6 +220,18 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "Fisura — Materials-Damage Vision Lab (Crack Detection to Engineering Units)"
+        link: "https://fisura.fasl-work.com"
+        tagline: "Public research lab on seeing damage in built materials: one surface image in, damage detected and quantified in engineering units (pixel-to-mm width/length, orientation, density, growth between inspections, 2D digital image correlation), with a full method ladder (classical pipeline, learned SOTA segmentation, foundation models, anomaly detection) compared on the same open cases with the same metrics. Masks are only ever the input to a number. Offline heavy lane plus a client-side browser live lane. Honest: a method-comparison lab, not a certified inspection tool; under active build-out."
+
+      - title: "SymLab — Symbolic Regression Lab (Accuracy and Recovery, Reported Separately)"
+        link: "https://symlab.fasl-work.com"
+        tagline: "Public research lab on symbolic regression: recovering a readable closed-form expression from data. Reports accuracy (R2 on test) and structural recovery (did it return the true law, by edit distance) as two separate columns on every known-law case, never averaged, across genetic-programming and sparse-regression families at published budgets. Headline (Feynman Gaussian): sparse regression reaches R2 = 1 - 1.8e-09 in about zero seconds and recovers nothing; every accuracy-only benchmark scores it solved. Runs live in the browser."
+
+      - title: "CentralIA — Initiative-Management Console over a Version-Control Provider"
+        link: "https://centralia.fasl-work.com"
+        tagline: "Connection-first web console that connects to GitHub, GitLab or an offline emulator, reads a management repo through its structure map, and renders a whole portfolio of repo-mapped initiatives: a filterable grid, per-initiative 5-axis status (development, design, implementation, deployment, value), live open issues, plans, findings, history, and a hub growth graph. A real tool, not a mockup, with a genuine self-contained offline emulator; the token lives server-side (never the browser or a DB) and a server-side anonymize toggle redacts client info for screen-sharing. Single-user auth; public instance private."
+
       - title: "ChronoScope — Univariate Forecasting Atlas with a Foundation-Model Tier"
         link: "https://chronoscope.fasl-work.com"
         tagline: "Univariate time-series forecasting atlas: 15 diagnostic cases through one 19-method ladder (classical up to four zero-shot foundation models: Chronos-Bolt, Chronos-2, TimesFM-2.5, TiRex-2), scored by backtested MASE/sMAPE/coverage, baked offline and replayed in a static SPA. Honest: on real M4-hourly a one-line SeasonalNaive (MASE 0.641) beats TimesFM-2.5 (0.729)."
