@@ -220,6 +220,10 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "GeoLab — Browser-Native Multi-Engine Geospatial Tool Platform"
+        link: "https://geolab.fasl-work.com"
+        tagline: "Browser-native, no-install geospatial platform: load a DEM / GeoTIFF / vector / point cloud, run real geoprocessing tools, chain them into reproducible JSON pipelines, and explore on a map or 3D canvas, entirely client-side (WASM in a Web Worker), your data never leaving the machine. Live today: 747 real WhiteboxTools / GeoLibre tools via the geolibre engine; multi-engine architecture (ADR-0059) aggregating GDAL, GEOS, Turf, H3, ITK, OpenCV, ONNX as adapters. Per-tool provenance; the tool count is only what genuinely runs. A CAOS lab (SimLab / PINN-Lab / QLab family)."
+
       - title: "FrothSeg — Flotation-Froth Instance Segmentation Lab (Browser ML)"
         link: "https://frothseg.fasl-work.com"
         tagline: "Browser-native instance segmentation of flotation froth (per-bubble delineation via client-side ONNX): seven classical methods vs LamellaStar, a real published four-head model shipped as a three-seed logit-mean ensemble (N1 mean AP 0.5186, AP50 0.8279, PQ 0.7359) with SAM2 / Cellpose-SAM teachers and a distilled browser head. Honest core: no public real froth dataset exists (the search is recorded as a null, Roboflow dropped), so froth cases are synthetic and BBBC038 (64 real dense-touching images, CC0) is an adjacent-domain transfer probe that explicitly does NOT clear the froth blocker; the transfer study refuted its own hypothesis. Part of the Faena hub."
