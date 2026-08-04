@@ -106,6 +106,7 @@ experiences:
           - Architect and deliver solutions using Data & AI strategies and industry-specific technologies
           - Support pre-sales and business development for industry-focused Data & AI projects
           - Supervise professional internships: mentored geotechnical risk prediction system industrialization (2026)
+          - Co-presented "Mineral Tracking Models: five years of Codelco experience" with Magdalena Ribbeck (Directora, Codelco MinCo-Hidro) at Minería Digital 2026, Santiago (Aug 2026)
 
     - role: Data Processing Specialist | Senior Lead Data Scientist
       time: Jan. 2025 - Sept. 2025
@@ -220,6 +221,10 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "StockTwin — Run-of-Mine Stockpile Twin (Built Truck by Truck)"
+        link: "https://stocktwin.fasl-work.com"
+        tagline: "A run-of-mine stockpile built the way one actually is: by trucks, one load at a time, following a dump plan, on ground they have to be able to climb (fresh material stands at ~37 degrees and a truck climbs about two thirds of that, so a truck never stands on fresh material; unreachable tips are refused and recorded, ~17% of loads). It measures the three questions that matter, each against the right bound: homogenisation as variance reduction against the 1/N independent-layer bound (withheld where unreliable), provenance as a per-cell lot ledger summing to one on every cut, and size segregation via the Gray-Thornton kinetic-sieving model down a real face. 22 scenarios across 6 axes, 22,656 placed loads, every one relaxing to zero cell pairs over the angle of repose, gated on the actual artifact; two that would not relax were withdrawn rather than shipped broken. Physics is the separately published bedblend package; synthetic and MineLib-public data only. Not a blending optimizer and it emits no plant setpoint. The open, synthetic counterpart to a real mineral-tracking line of work. Part of the Faena hub."
+
       - title: "GeoLab — Browser-Native Multi-Engine Geospatial Tool Platform"
         link: "https://geolab.fasl-work.com"
         tagline: "Browser-native, no-install geospatial platform: load a DEM / GeoTIFF / vector / point cloud, run real geoprocessing tools, chain them into reproducible JSON pipelines, and explore on a map or 3D canvas, entirely client-side (WASM in a Web Worker), your data never leaving the machine. Live today: 747 real WhiteboxTools / GeoLibre tools via the geolibre engine; multi-engine architecture (ADR-0059) aggregating GDAL, GEOS, Turf, H3, ITK, OpenCV, ONNX as adapters. Per-tool provenance; the tool count is only what genuinely runs. A CAOS lab (SimLab / PINN-Lab / QLab family)."
