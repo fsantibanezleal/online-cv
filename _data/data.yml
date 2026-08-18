@@ -275,7 +275,7 @@ projects:
 
       - title: "PitForge — Exact Ultimate Pit Limit & Nested Whittle Pit-Shell Workbench"
         link: "https://pitforge.fasl-work.com"
-        tagline: "Open-pit mine-design workbench that solves the ultimate pit limit exactly (maximum-weight closure reduced to a Dinic min-cut, live in the browser) and derives nested Whittle shells, reproducing three published MineLib optima to <= 2e-9 relative error and self-checking every solve with the max-flow duality identity. Honest: the learned grade-nn (R2 0.9613 vs ordinary kriging 0.958) is a tie, never a win, and the CPIT schedule publishes its 10.46% integrality gap. Part of the Faena hub."
+        tagline: "Open-pit mine-design workbench that solves the ultimate pit limit exactly (maximum-weight closure reduced to a Dinic min-cut, live in the browser) and derives nested Whittle shells, reproducing three published MineLib optima to <= 2e-9 relative error and self-checking against the max-flow duality identity. Honest: the learned grade-nn (R2 0.8757 vs ordinary kriging 0.9333 on a leave-one-geology-out split) trails kriging and never beats it, and the CPIT lane reproduces the published newman1.cpit LP bound to 3.7e-9 and publishes a 3.81% bound-to-feasible gap, with a separate synthetic twin at 11.29% labelled non-comparable. Both learned models are trained on synthetic seeded deposits, no real drillholes. Part of the Faena hub."
 
       - title: "ProspectMap — Mineral Prospectivity Workbench with a Published Null Result"
         link: "https://prospectmap.fasl-work.com"
