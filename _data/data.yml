@@ -319,7 +319,7 @@ projects:
 
       - title: "Faena — Mining-Analytics Hub"
         link: "https://faena.fasl-work.com"
-        tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile, matching the registry rather than rounding up: 4 live (DispatchLab, ChancaDEM, ChargeCascade, RotorVitals), 9 in active development (deployed and try-able, not yet validated at the bar: CutoffGrade, TailWatch, CoreLog, PitForge, ProspectMap, FragmentIQ, FrothSeg, PhaseFlow, TruckVitals), and 29 planned. Astro static, bilingual, data-driven."
+        tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile, matching the registry rather than rounding up: 4 live (DispatchLab, ChancaDEM, ChargeCascade, RotorVitals), 10 in active development (deployed and try-able, not yet validated at the bar: CutoffGrade, TailWatch, CoreLog, PitForge, ProspectMap, FragmentIQ, FrothSeg, PhaseFlow, TruckVitals, StockTwin), and 28 planned. Astro static, bilingual, data-driven."
 
       - title: "CutoffGrade Studio — Lane's Optimal Cut-off Grade"
         link: "https://cutoffgrade.fasl-work.com"
