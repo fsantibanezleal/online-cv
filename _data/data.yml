@@ -54,13 +54,13 @@ career-profile:
     title: Career Profile
     summary: |
       Decision Science leader with 15+ years bridging academia and industry. I translate advanced
-      analytics into measurable business value — aligning data-driven initiatives with operational KPIs,
+      analytics into measurable business value, aligning data-driven initiatives with operational KPIs,
       guiding cross-functional teams, and scaling solutions from pilot to enterprise adoption across
       mining, manufacturing, and services.
 
       Track record: +100 TPH throughput gains in SAG milling, measurable copper recovery improvements,
       15% reduction in environmental alerts, field-data workflows compressed from days to hours.
-      I lead solution design, stakeholder alignment, and technical delivery — ensuring analytics
+      I lead solution design, stakeholder alignment, and technical delivery, ensuring analytics
       investments produce auditable, sustainable operational results.
 
 education:
@@ -221,147 +221,147 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
-      - title: "TruckVitals — Onset Detection on Haul-Truck Telemetry (Regime First, Then Residual)"
+      - title: "TruckVitals, Onset Detection on Haul-Truck Telemetry (Regime First, Then Residual)"
         link: "https://truckvitals.fasl-work.com"
         tagline: "Every haul-truck channel moves with payload, grade and speed, so a change detector on raw telemetry detects the truck going uphill, not a fault. TruckVitals segments the operating regime FIRST, from context channels disjoint from the monitored ones (which is what stops the segmentation absorbing the fault it exists to expose), and detects on the within-regime residual. The headline carries no detector in it, so no threshold rule or budget can move it: on six-operating-condition NASA C-MAPSS subsets the fault signature is 0.16 sigma of the pooled spread and 11.95 sigma of the within-regime spread (ratio 90.2; 62.3 on the second pair), while single-condition subsets return exactly 1.00 as a negative control nobody designed. Four scoped data lanes (C-MAPSS, SCANIA APS, SCANIA Component X over 23,550 real vehicles, and a synthetic fleet), a published NULL on onset localisation, and a WITHDRAWN false-alarm claim. The headline changed after a review commissioned to refute it broke three of its four numbers. Engine: the separately published regimecpd package. Part of the Faena hub."
 
-      - title: "PhaseFlow — Open-Pit Production Schedule with a Certified Bound"
+      - title: "PhaseFlow, Open-Pit Production Schedule with a Certified Bound"
         link: "https://phaseflow.fasl-work.com"
         tagline: "An open-pit production schedule (the constrained pit limit problem) solved with a certified bound and animated year by year over the block model: PitForge answers which blocks are worth mining, PhaseFlow answers when, under slope precedence in every period and per-period mining and processing capacity. Anchored to the published MineLib newman1.cpit solved AS PUBLISHED, on its own six periods, 8% discount rate and two capacities: the ultimate pit optimum reproduces exactly (26,086,899) and the joint LP bound lands at 24,486,184 against a published 24,486,549, with the shipped 2.49% gap stated against a published 1.26%. The bound needs no LP solver (critical multiplier algorithm, exact in O(mn log n) as parametric maximum closures), which is why a TypeScript port re-solves the whole problem live in the browser under a parity test. Two bounds run on every case and their difference is reported, because that difference is the part of a gap belonging to the bound rather than the plan. Spatial coherence is a first-class KPI. Engine: the separately published oreblocks package. Part of the Faena hub."
 
-      - title: "StockTwin — Run-of-Mine Stockpile Twin (Built Truck by Truck)"
+      - title: "StockTwin, Run-of-Mine Stockpile Twin (Built Truck by Truck)"
         link: "https://stocktwin.fasl-work.com"
         tagline: "A run-of-mine stockpile built the way one actually is: by trucks, one load at a time, following a dump plan, on ground they have to be able to climb (fresh material stands at ~37 degrees and a truck climbs about two thirds of that, so a truck never stands on fresh material; unreachable tips are refused and recorded, ~17% of loads). It measures the three questions that matter, each against the right bound: homogenisation as variance reduction against the 1/N independent-layer bound (withheld where unreliable), provenance as a per-cell lot ledger summing to one on every cut, and size segregation via the Gray-Thornton kinetic-sieving model down a real face. 22 scenarios across 6 axes, 22,656 placed loads, every one relaxing to zero cell pairs over the angle of repose, gated on the actual artifact; two that would not relax were withdrawn rather than shipped broken. Physics is the separately published bedblend package; synthetic and MineLib-public data only. Not a blending optimizer and it emits no plant setpoint. The open, synthetic counterpart to a real mineral-tracking line of work. Part of the Faena hub."
 
-      - title: "GeoLab — Browser-Native Multi-Engine Geospatial Tool Platform"
+      - title: "GeoLab, Browser-Native Multi-Engine Geospatial Tool Platform"
         link: "https://geolab.fasl-work.com"
         tagline: "Browser-native, no-install geospatial platform: load a DEM / GeoTIFF / vector / point cloud, run real geoprocessing tools, chain them into reproducible JSON pipelines, and explore on a map or 3D canvas, entirely client-side (WASM in a Web Worker), your data never leaving the machine. Live today: 747 real WhiteboxTools / GeoLibre tools via the geolibre engine; multi-engine architecture (ADR-0059) aggregating GDAL, GEOS, Turf, H3, ITK, OpenCV, ONNX as adapters. Per-tool provenance; the tool count is only what genuinely runs. A CAOS lab (SimLab / PINN-Lab / QLab family)."
 
-      - title: "FrothSeg — Flotation-Froth Instance Segmentation Lab (Browser ML)"
+      - title: "FrothSeg, Flotation-Froth Instance Segmentation Lab (Browser ML)"
         link: "https://frothseg.fasl-work.com"
         tagline: "Browser-native instance segmentation of flotation froth (per-bubble delineation via client-side ONNX): seven classical methods vs LamellaStar, a real published four-head model shipped as a three-seed logit-mean ensemble (N1 mean AP 0.5186, AP50 0.8279, PQ 0.7359) with SAM2 / Cellpose-SAM teachers and a distilled browser head. Honest core: no public real froth dataset exists (the search is recorded as a null, Roboflow dropped), so froth cases are synthetic and BBBC038 (64 real dense-touching images, CC0) is an adjacent-domain transfer probe that explicitly does NOT clear the froth blocker; the transfer study refuted its own hypothesis. Part of the Faena hub."
 
-      - title: "Fisura — Materials-Damage Vision Lab (Crack Detection to Engineering Units)"
+      - title: "Fisura, Materials-Damage Vision Lab (Crack Detection to Engineering Units)"
         link: "https://fisura.fasl-work.com"
         tagline: "Public research lab on seeing damage in built materials: one surface image in, damage detected and quantified in engineering units (pixel-to-mm width/length, orientation, density, growth between inspections, 2D digital image correlation), with a full method ladder (classical pipeline, learned SOTA segmentation, foundation models, anomaly detection) compared on the same open cases with the same metrics. Masks are only ever the input to a number. Offline heavy lane plus a client-side browser live lane. Honest: a method-comparison lab, not a certified inspection tool; under active build-out."
 
-      - title: "SymLab — Symbolic Regression Lab (Accuracy and Recovery, Reported Separately)"
+      - title: "SymLab, Symbolic Regression Lab (Accuracy and Recovery, Reported Separately)"
         link: "https://symlab.fasl-work.com"
         tagline: "Public research lab on symbolic regression: recovering a readable closed-form expression from data. Reports accuracy (R2 on test) and structural recovery (did it return the true law, by edit distance) as two separate columns on every known-law case, never averaged, across genetic-programming and sparse-regression families at published budgets. Headline (Feynman Gaussian): sparse regression reaches R2 = 1 - 1.8e-09 in about zero seconds and recovers nothing; every accuracy-only benchmark scores it solved. Runs live in the browser."
 
-      - title: "CentralIA — Initiative-Management Console over a Version-Control Provider"
+      - title: "CentralIA, Initiative-Management Console over a Version-Control Provider"
         link: "https://centralia.fasl-work.com"
         tagline: "Connection-first web console that connects to GitHub, GitLab or an offline emulator, reads a management repo through its structure map, and renders a whole portfolio of repo-mapped initiatives: a filterable grid, per-initiative 5-axis status (development, design, implementation, deployment, value), live open issues, plans, findings, history, and a hub growth graph. A real tool, not a mockup, with a genuine self-contained offline emulator; the token lives server-side (never the browser or a DB) and a server-side anonymize toggle redacts client info for screen-sharing. Single-user auth; public instance private."
 
-      - title: "ChronoScope — Univariate Forecasting Atlas with a Foundation-Model Tier"
+      - title: "ChronoScope, Univariate Forecasting Atlas with a Foundation-Model Tier"
         link: "https://chronoscope.fasl-work.com"
         tagline: "Univariate time-series forecasting atlas: 15 diagnostic cases through one 19-method ladder (classical up to four zero-shot foundation models: Chronos-Bolt, Chronos-2, TimesFM-2.5, TiRex-2), scored by backtested MASE/sMAPE/coverage, baked offline and replayed in a static SPA. Honest: on real M4-hourly a one-line SeasonalNaive (MASE 0.641) beats TimesFM-2.5 (0.729)."
 
-      - title: "TailWatch — InSAR Ground-Deformation Studio for Tailings Dams & Slopes"
+      - title: "TailWatch, InSAR Ground-Deformation Studio for Tailings Dams & Slopes"
         link: "https://tailwatch.fasl-work.com"
         tagline: "In-browser InSAR ground-deformation studio for tailings dams and slopes: a LOS displacement cube with per-pixel OLS velocity, a Fukuzono inverse-velocity time-of-failure forecaster with split-conformal bands, and two live ONNX models, over 5 physics-simulated cases plus 1 real Sentinel-1 sample. Honest: on the held-out benchmark the classical velocity map (AUC 0.968) beats the learned anomaly autoencoder (0.898). Part of the Faena hub."
 
-      - title: "DispatchLab — Truck-to-Shovel Dispatch Bench for Open-Pit Mining"
+      - title: "DispatchLab, Truck-to-Shovel Dispatch Bench for Open-Pit Mining"
         link: "https://dispatchlab.fasl-work.com"
         tagline: "In-browser truck-to-shovel dispatch bench on a deterministic open-pit DES: nine policies (heuristic, OR-Hungarian, learned) compared under common random numbers against a closed-form capacity oracle, over cases from minehaulsim (the author's own Apache-2.0 PyPI package). Honest: the distilled Monte-Carlo rollout is a published null, winning 0 of 8 seeds under cycle-time uncertainty. Part of the Faena hub."
 
-      - title: "ChancaDEM — Crusher-Comminution Studio (Population-Balance Engine)"
+      - title: "ChancaDEM, Crusher-Comminution Studio (Population-Balance Engine)"
         link: "https://chancadem.fasl-work.com"
         tagline: "In-browser crusher-comminution studio: a pure-TypeScript closed-form engine (Whiten population balance solved live by LU + Evertsson capacity + Bond power) computes product gradation, throughput and power in sub-millisecond, with the secondary-cone lane calibrated to 10 published HP500 surveys (leave-one-out MAPE 12.09% beating both negative controls). Honest: despite the name it does NOT run DEM, the 3D chamber is a kinematic animation. Part of the Faena hub."
 
-      - title: "CoreLog Vision — Drill-Core Logging & Lithology Classification Workbench"
+      - title: "CoreLog Vision, Drill-Core Logging & Lithology Classification Workbench"
         link: "https://corelog.fasl-work.com"
         tagline: "Browser-native drill-core logging workbench: a 6-class lithology CNN plus a Mahalanobis out-of-distribution flag that routes unfamiliar core to a novelty flag instead of forcing a class, run client-side on synthetic trays with a real DCID photo lane as the evaluation-only set. Honest: the 0.994 accuracy is synthetic-vs-synthetic, a label-permutation control collapses to chance, and the shipped OOD detector replaced an incumbent that scored worse than chance (0.3078). Part of the Faena hub."
 
-      - title: "PitForge — Exact Ultimate Pit Limit & Nested Whittle Pit-Shell Workbench"
+      - title: "PitForge, Exact Ultimate Pit Limit & Nested Whittle Pit-Shell Workbench"
         link: "https://pitforge.fasl-work.com"
         tagline: "Open-pit mine-design workbench that solves the ultimate pit limit exactly (maximum-weight closure reduced to a Dinic min-cut, live in the browser) and derives nested Whittle shells, reproducing three published MineLib optima to <= 2e-9 relative error and self-checking against the max-flow duality identity. Honest: the learned grade-nn (R2 0.8757 vs ordinary kriging 0.9333 on a leave-one-geology-out split) trails kriging and never beats it, and the CPIT lane reproduces the published newman1.cpit LP bound to 3.7e-9 and publishes a 3.81% bound-to-feasible gap, with a separate synthetic twin at 11.29% labelled non-comparable. Both learned models are trained on synthetic seeded deposits, no real drillholes. Part of the Faena hub."
 
-      - title: "ProspectMap — Mineral Prospectivity Workbench with a Published Null Result"
+      - title: "ProspectMap, Mineral Prospectivity Workbench with a Published Null Result"
         link: "https://prospectmap.fasl-work.com"
         tagline: "Mineral-prospectivity workbench computing a Weights-of-Evidence posterior live in the browser over stacked layers, with conditional-independence testing and random-vs-spatial CV inflation made first-class. Honest: on the real US Midcontinent MVT Zn-Pb belt (Lawley et al. 2022) the committed verdict is ranking_win false, PU-Conformal (0.656) loses to 1989 Weights of Evidence (0.732), and a trivial distance-to-deposit null (0.783) ties the best model, so most apparent skill is spatial proximity. Part of the Faena hub."
 
-      - title: "FragmentIQ — Post-Blast Muckpile Fragmentation Analysis Workbench"
+      - title: "FragmentIQ, Post-Blast Muckpile Fragmentation Analysis Workbench"
         link: "https://fragmentiq.fasl-work.com"
         tagline: "Post-blast fragmentation workbench delineating muckpile fragments by watershed in the browser and deriving a mass-weighted particle-size distribution with a Rosin-Rammler fit and P10/P50/P80, scored against generator truth on synthetic cases with 5 real Gole-Gohar photos shipped as an explicitly RELATIVE lane (no scale, no sieve truth). Honest: the over-segmentation bias is shown in the artifact (116 recovered vs 70 true), and the learned refinement gain is indicative not significant at n=8. Part of the Faena hub."
 
-      - title: "Pulso — Well-Test Diagnostic-Curve Shape Clustering and Attribution"
+      - title: "Pulso, Well-Test Diagnostic-Curve Shape Clustering and Attribution"
         link: "https://pulso.fasl-work.com"
         tagline: "Unsupervised catalogue of flow-behaviour classes for fractured reservoirs: it clusters the shape of pressure-transient Bourdet-derivative curves with DTW k-medoids, attributes each class to fracture-network descriptors (Random Forest + SHAP), and classifies a user curve against baked medoids with conformal prediction, reproducing and extending Kamel Targhi et al. 2026 on a real 4TU corpus (~4768 curves, silhouette 0.72/0.86 against a 0.137 single-regime null). Honest: the learned models' accuracy is against the pipeline's own k-medoids labels (training-set silhouette a weak 0.190), not external ground truth, and the aquifer transfer carries shape but not physics."
 
-      - title: "CardioPINN — Physics-Informed Cardiac Inverse-Problem Lab"
+      - title: "CardioPINN, Physics-Informed Cardiac Inverse-Problem Lab"
         link: "https://cardiopinn.fasl-work.com"
         tagline: "Two-case lab in physics-informed cardiac reconstruction on 100% real measured data (EDGAR ECGi beats; one thoracic-aorta 4D-flow MRI), scoped as a complement to classical methods, not a replacement: calibrated per-node uncertainty (2-sigma ~0.90) and a resolved relative-pressure field, outputs a deterministic estimate cannot give, at point-accuracy parity with Tikhonov (stated in-app). Two CI-tested autograd advances (spatial 0.066 vs 4.19 mmHg; temporal dv/dt exact to ~6 frames/cycle) and three published nulls."
 
-      - title: "ADRA — Adversarial Dev Review Agent"
+      - title: "ADRA, Adversarial Dev Review Agent"
         link: "https://adra.fasl-work.com"
         tagline: "Deterministic-first, adversarial-validation engine for the software lifecycle: deterministic tools (git, the exact CI command, bundle validation, leak scan, SQL probes) run first and become grounding the model may not contradict plus an immutable provenance log; a blocking critic tries to refute each artifact, an LLM-as-judge scores with swap-and-average, and the loop escalates to a human where nothing deterministic backs the verdict. Six skills, offline-capable, no API key. On PyPI as adra."
 
-      - title: "Croquis — On-Device 3D Reconstruction of Real Spaces on Android"
+      - title: "Croquis, On-Device 3D Reconstruction of Real Spaces on Android"
         link: "https://github.com/fsantibanezleal/Croquis"
         tagline: "Android app (Expo shell + native Kotlin/C++ core) that turns a walk-through (camera, IMU, GPS, no lidar) into a metric, consistency-gated point-cloud reconstruction computed fully on the phone, stored on the phone as a scene library with an honest uncertainty budget; imagery never leaves the device. Sensors own trajectory and scale (ARCore VIO); the neural depth model contributes geometry only. In development (v0), Apache-2.0, with a local-GPU reprocessor (Croquis Station)."
 
-      - title: "CAOS Seismic — Honest Probabilistic Earthquake Forecasting"
+      - title: "CAOS Seismic, Honest Probabilistic Earthquake Forecasting"
         link: "https://seismic.fasl-work.com"
         tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
 
-      - title: "CAOS SimLab — A Didactic Lab for Simulation (DES & ABM)"
+      - title: "CAOS SimLab, A Didactic Lab for Simulation (DES & ABM)"
         link: "https://simlab.fasl-work.com"
         tagline: "Open lab for Discrete-Event Simulation and Agent-Based Modeling: land in a running sim, tune params, watch the dynamics. Ten scenarios over six viz families; a run is a pure function of (params, seed) so replay is exact; live in-browser via Pyodide; validated vs theory (M/M/c ↔ Erlang-C)."
 
-      - title: "RotorVitals — Rotating-Machinery Condition Monitoring & Prognostics"
+      - title: "RotorVitals, Rotating-Machinery Condition Monitoring & Prognostics"
         link: "https://rotorvitals.fasl-work.com"
-        tagline: "In-browser condition-monitoring and prognostics workbench for rotating machinery (bearings-first) on real measured vibration: a source selector over CWRU/Ottawa/MaFaulDa diagnosis and FEMTO/XJTU/IMS run-to-failure, a classical DSP chain, a learned WDCNN + autoencoder, and a four-model RUL ladder — all live via onnxruntime-web. Honest: shows where the deep model loses to physics cross-rig. Part of the Faena hub."
+        tagline: "In-browser condition-monitoring and prognostics workbench for rotating machinery (bearings-first) on real measured vibration: a source selector over CWRU/Ottawa/MaFaulDa diagnosis and FEMTO/XJTU/IMS run-to-failure, a classical DSP chain, a learned WDCNN + autoencoder, and a four-model RUL ladder, all live via onnxruntime-web. Honest: shows where the deep model loses to physics cross-rig. Part of the Faena hub."
 
-      - title: "ChargeCascade — Tumbling-Mill Charge Motion & Power Studio"
+      - title: "ChargeCascade, Tumbling-Mill Charge Motion & Power Studio"
         link: "https://chargecascade.fasl-work.com"
-        tagline: "Live in-browser 3D studio for tumbling-mill (SAG/ball/rod) charge motion and power: critical speed, the cascading→cataracting→centrifuging transition, toe/shoulder, Hogg-Fuerstenau/Morrell/Bond power — closed-form physics (not DEM) recomputed on every slider, with an ONNX power surrogate (~5% vs the exact engine) and an out-of-envelope anomaly guard. Part of the Faena hub."
+        tagline: "Live in-browser 3D studio for tumbling-mill (SAG/ball/rod) charge motion and power: critical speed, the cascading→cataracting→centrifuging transition, toe/shoulder, Hogg-Fuerstenau/Morrell/Bond power, closed-form physics (not DEM) recomputed on every slider, with an ONNX power surrogate (~5% vs the exact engine) and an out-of-envelope anomaly guard. Part of the Faena hub."
 
-      - title: "Faena — Mining-Analytics Hub"
+      - title: "Faena, Mining-Analytics Hub"
         link: "https://faena.fasl-work.com"
         tagline: "Open launcher cataloguing a growing set of independent, in-browser mining-analytics tools across the value chain, each its own documented product on real or validated-synthetic data. Honest lifecycle on every tile, matching the registry rather than rounding up: 4 live (DispatchLab, ChancaDEM, ChargeCascade, RotorVitals), 10 in active development (deployed and try-able, not yet validated at the bar: CutoffGrade, TailWatch, CoreLog, PitForge, ProspectMap, FragmentIQ, FrothSeg, PhaseFlow, TruckVitals, StockTwin), and 28 planned. Astro static, bilingual, data-driven."
 
-      - title: "CutoffGrade Studio — Lane's Optimal Cut-off Grade"
+      - title: "CutoffGrade Studio, Lane's Optimal Cut-off Grade"
         link: "https://cutoffgrade.fasl-work.com"
         tagline: "Open studio for Lane's optimal cut-off grade: from a grade-tonnage curve plus prices/costs/capacities it computes the NPV-maximising declining cut-off trajectory, NPV and mine life, live in-browser. The exact Lane optimizer is the authority; the learned ONNX models are for speed only, not accuracy. Synthetic base case, openly labelled. Part of the Faena hub."
 
-      - title: "Atalaya — A Watchtower over Chile's Open Data"
+      - title: "Atalaya, A Watchtower over Chile's Open Data"
         link: "https://atalaya.fasl-work.com"
         tagline: "Data-engineering + IR pipeline over Chile's Data Observatory: harvests and profiles 1,017 datasets and mines five cross-dataset relations (same-source, semantic MiniLM/ONNX, spatial, joinability via MinHash, correlation with permutation-null + FDR) into an explorable knowledge graph, with client-side semantic search. Honest about evidence strength, never causal."
 
-      - title: "MineHaul (minehaulsim) — Mine-Haulage Discrete-Event Simulation"
+      - title: "MineHaul (minehaulsim), Mine-Haulage Discrete-Event Simulation"
         link: "https://pypi.org/project/minehaulsim/"
         tagline: "Open-source Python package (Apache-2.0, on PyPI): deterministic discrete-event simulation of open-pit and underground mine haulage on constrained road networks, with seeded parametric mine generators. Byte-deterministic, 227 tests. Real engine, synthetic mines (class-representative, not OEM). Companion generator for DispatchLab."
 
-      - title: "Lidar3D — Streaming 3D Reconstruction Lab"
+      - title: "Lidar3D, Streaming 3D Reconstruction Lab"
         link: "https://lidar3d.fasl-work.com"
-        tagline: "Early research lab for feed-forward streaming 3D reconstruction: an RGB/LiDAR stream becomes a camera trajectory, dense depth and a fused point cloud (a from-scratch depth+pose net, ~0.28 m ATE on TUM, plus a vendored model). The site replays the baked cloud across four renderers under one transform, with a strict renderer-honesty discipline — replay, not real-time; not SLAM."
+        tagline: "Early research lab for feed-forward streaming 3D reconstruction: an RGB/LiDAR stream becomes a camera trajectory, dense depth and a fused point cloud (a from-scratch depth+pose net, ~0.28 m ATE on TUM, plus a vendored model). The site replays the baked cloud across four renderers under one transform, with a strict renderer-honesty discipline, replay, not real-time; not SLAM."
 
-      - title: "QLab — Quantum Laboratory"
+      - title: "QLab, Quantum Laboratory"
         link: "https://qlab.fasl-work.com"
-        tagline: "Didactic quantum-computing lab running real frameworks (Qiskit, PennyLane, Cirq, Stim) on 20 cases, each next to its classical baseline. Honest verdict, with the costs on screen: 0/20 practical speedups — at lab scale classical still wins. Reproducible traces, simulator-only (no QPU claims)."
+        tagline: "Didactic quantum-computing lab running real frameworks (Qiskit, PennyLane, Cirq, Stim) on 20 cases, each next to its classical baseline. Honest verdict, with the costs on screen: 0/20 practical speedups, at lab scale classical still wins. Reproducible traces, simulator-only (no QPU claims)."
 
-      - title: "PINN-Lab — A Runnable Catalogue of Physics-Informed Neural Networks"
+      - title: "PINN-Lab, A Runnable Catalogue of Physics-Informed Neural Networks"
         link: "https://pinnlab.fasl-work.com"
         tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/benchmark/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
 
-      - title: "ImageLab — One Image Across the Full Spectrum of Representations"
+      - title: "ImageLab, One Image Across the Full Spectrum of Representations"
         link: "https://imglab.fasl-work.com"
         tagline: "Interactive lab that writes a single image in eleven representations (orthonormal Fourier/DCT/wavelet/KLT transforms, overcomplete sparse dictionaries, geometric primitives, a SIREN implicit neural field, symbolic CPPN formula art, Fourier-descriptor epicycles, and learned VAE and diffusion latents), each with its parameters editable live. The measured thesis: editability is U-shaped, peaking at the designed-structure pole (local, exact edits; KLT/wavelet locality ~1.0) and the learned-manifold pole (semantic, entangled edits) and collapsing to noise between (Fourier/DCT ~0.16-0.23), backed by a real cross-family rate-distortion and fixed-budget-fidelity benchmark. Everything is computed live in-browser (TypeScript + WebGL2) or baked by a seed-deterministic Python pipeline, with PSNR/SSIM/MS-SSIM shared across both. Sibling of PINN-Lab, QLab and SimLab; bilingual EN/ES, light/dark."
 
-      - title: "Veta — Agentic Mineral-Tracking Decision Support (private)"
+      - title: "Veta, Agentic Mineral-Tracking Decision Support (private)"
         link:
         tagline: "Private DSS for mineral processing: a voice/text question runs through a multi-stage agent pipeline to tiered solvers, with every recommendation grounded and traceable via RAG."
 
-      - title: "Mantia — Anonymized Hub of Agentic Tools for SAP Plant Maintenance (private)"
+      - title: "Mantia, Anonymized Hub of Agentic Tools for SAP Plant Maintenance (private)"
         link:
         tagline: "An anonymized hub cataloguing a family of agentic tools oriented to SAP Plant Maintenance (PM): work-order generation, spares planning, notification triage, scheduling and more, on one shared agent core with a mock-or-real connector to the enterprise system. Delivered under confidentiality: general description only, no client data."
 
-      - title: "Mine Pile Visualizer — Stockpile & Circuit Explorer"
+      - title: "Mine Pile Visualizer, Stockpile & Circuit Explorer"
         link: "https://github.com/fsantibanezleal/MINE_PILE_VIZ_TS"
         tagline: "Local-first Next.js 16 app for mining circuit topology, 3D stockpile voxels, live material state, and profiler history. React Three Fiber + Apache Arrow."
 
-      - title: "FeelIT 2.0 — Haptic Accessibility Workbench"
+      - title: "FeelIT 2.0, Haptic Accessibility Workbench"
         link: "https://github.com/fsantibanezleal/UDEC_FEELIT"
         tagline: "Modern web-based platform for tactile 3D object exploration, Braille reading, and haptic desktop interaction. 5 workspaces, 116 tests, hardware-optional with a native haptic-device bridge."
 
@@ -377,11 +377,11 @@ projects:
         link:
         tagline: "Supervised ML platform for mineral identification from VNIR/SWIR imagery using ensemble methods, CNNs, and compositional constraints."
 
-      - title: "Auralis — 6D Audio Embedding Visualizer"
+      - title: "Auralis, 6D Audio Embedding Visualizer"
         link: "https://auralis.fasl-work.com"
         tagline: "Browser app mapping audio onto seven embedding tracks (spectral, PCA/t-SNE/UMAP, Tonnetz, YAMNet, CLAP) as interactive 3D trajectories over 102 curated clips. FastAPI + Three.js."
 
-      - title: "Finn — Personal Finance & Market Forecasting"
+      - title: "Finn, Personal Finance & Market Forecasting"
         link: "https://finn.fasl-work.com"
         tagline: "Market-analytics demo: walk-forward-validated forecasting, full risk battery, cost-aware backtests, FinBERT news sentiment, and LATAM coverage (IPSA + Chile macro). FastAPI + HTMX + Plotly."
 
@@ -413,13 +413,13 @@ projects:
         link: "https://github.com/fsantibanezleal/SCIAN_EVL_SpherSIM"
         tagline: "3D simulation of collective cell migration on a spherical zebrafish embryo surface using Three.js and FastAPI."
 
-      - title: GrainSight — Particle Size Analyzer
+      - title: GrainSight, Particle Size Analyzer
         link: "https://github.com/fsantibanezleal/FASL_3D_GrainSize"
         tagline: "3D granulometry from RGB-D data: watershed segmentation, 18 per-grain metrics, Rosin-Rammler PSD, D-values, sieve simulation."
 
-      - title: "SurfaceScope — RGB-D Surface Profiler"
+      - title: "SurfaceScope, RGB-D Surface Profiler"
         link: "https://github.com/fsantibanezleal/FASL_3D_Distance_Profiler"
-        tagline: "RGB-D depth profiling for granulometry — surface reconstruction, ISO 4287 roughness, and curvature analysis from depth camera data."
+        tagline: "RGB-D depth profiling for granulometry: surface reconstruction, ISO 4287 roughness, and curvature analysis from depth camera data."
 
       - title: SOFI Super-Resolution Microscopy
         link: "https://github.com/fsantibanezleal/FASL_SOFI_QDOTS"
@@ -429,7 +429,7 @@ projects:
         link: "https://github.com/fsantibanezleal/IDS_OWP"
         tagline: "Information-theoretic framework for optimal well placement using adaptive entropy maximization with (1-1/e) guarantee."
 
-      - title: "PhD Thesis — Information-Theoretic Sampling"
+      - title: "PhD Thesis, Information-Theoretic Sampling"
         link: "http://repositorio.uchile.cl/handle/2250/175050"
         tagline: "Doctoral thesis on optimal sensor placement in binary random fields. Introduced AdSEMES with (1-1/e) submodularity guarantee. Published in Mathematical Geosciences (2019) and Natural Resources Research (2020)."
 
@@ -449,7 +449,7 @@ projects:
         link: "https://github.com/fsantibanezleal/Udec_Robotic_Writer"
         tagline: "5-DOF robotic arm simulation for letter placement using Denavit-Hartenberg kinematics and trajectory planning."
 
-      - title: "Micromundo — Virtual Microscopy & Science Education"
+      - title: "Micromundo, Virtual Microscopy & Science Education"
         link: "https://micromundo.app/"
         tagline: "Educational platform integrating virtual microscopy, collaborative teaching, and 3D-printed microscopes for schools. Team: micromundo.team | App: micromundo.app"
 
@@ -601,7 +601,7 @@ recommendations:
         person: "Academic Advisor"
         role: "Professor, Department of Electrical Engineering"
 
-      - recommendation: "Felipe led our analytics team through multiple simultaneous projects across mining, aquaculture, and retail — delivering real production improvements in each. His technical breadth and project leadership are remarkable."
+      - recommendation: "Felipe led our analytics team through multiple simultaneous projects across mining, aquaculture, and retail, delivering real production improvements in each. His technical breadth and project leadership are remarkable."
         person: "Technology Director"
         role: "Digital solutions company"
 
