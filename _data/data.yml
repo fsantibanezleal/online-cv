@@ -221,6 +221,46 @@ projects:
       Selected projects spanning research, industry, and education.
 
     assignments:
+      - title: "OreFlow, a Grinding and Separation Circuit Read as One Balance"
+        link: "https://oreflow.ml.fasl-work.com"
+        tagline: "Open mineral-processing workbench that links the stages of a concentrator in one calculation: every stream carries the mass flow of every mineral in 63 size classes plus water, the grinding circuit is closed (an energy-specific population-balance ball mill with Plitt cyclones), separation runs through flotation banks, a gravity bleed, magnetic drums or desliming, and every unit closes within 1e-9. Twelve authored ore and plant cases with 72 variants; a TypeScript port in a Web Worker held to the Python engine within 1e-6 re-solves the circuit on every control change; kinetic fits, a constrained optimizer, Latin-hypercube uncertainty, Sobol sensitivity and five learned surrogates (leave one case out, autoencoder guard) are baked offline. 341 Python tests, 165 frontend tests, a 684-check browser gate. Authored scenarios, not a calibrated plant; the measured lanes (HZDR RODARE 336, GeoMet Zenodo 7051975) are kept apart. Part of the Faena hub. MIT."
+
+      - title: "Inverse Earth Studio, a Geophysical Inversion Workbench on Original Synthetic Earths"
+        link: "https://geophysics.ml.fasl-work.com"
+        tagline: "Bilingual geophysics research workbench: 3D potential fields (SimPEG kernels), layered magnetotellurics with a live browser solve, acoustic full-waveform inversion (an executed Deepwave CUDA adjoint), learned inverses (CNN and autoencoder on 800/160/160 independent realizations) and joint cross-gradient inversion, on twenty geological constructors under six conditions each: 120 artifacts and 324 method results replayed with an inversion scrubber and a 3D scene. Numerics checked against independent Choclo and SimPEG prism computations; both hosts match the local build byte for byte. Original synthetic examples, no field validation, no posterior uncertainty or novelty claim; version 2 replaced a first version I rejected, and 0.03.000 gave the visual layer back to the shared shell. Apache-2.0 code, CC-BY-4.0 content; lifecycle building."
+
+      - title: "Neuraxis and reflexmesh, an Event-Driven Software Controller with Learned Metacontrol"
+        link: "https://neuraxis.ml.fasl-work.com"
+        tagline: "A fast, typed controller for software, files, tools and agents that recruits slower language-model reasoning only where the outcome justifies it. reflexmesh, public on PyPI from its own repository, owns the Rust/PyO3 admission layer, the typed event model and the learned control; Neuraxis, the private app, does real work on supplied files (verify a software release in nine verified steps, reconcile CSV records, audit sources) with independently checked outputs and the originals untouched. The corrected evaluation, 19,488 episodes, does not establish learned superiority: M12 reached 1,160 of 1,200 core successes against 1,200 of 1,200 for the exact baseline, both fitted allocation gates chose never to defer, and four fixed gates matched it. No AGI or biological claim; the first version was rejected and rebuilt."
+
+      - title: "Fragmenta, Blast Fragmentation Prediction Where the Learned Arms Explain Nothing on an Unseen Site"
+        link: "https://fragmenta.fasl-work.com"
+        tagline: "Twelve arms (six classical closed forms from Kuznetsov to two published regressions, six learned from a Levenberg-Marquardt network to gradient boosting and a stack) predict the mean fragment size of a bench blast over sixteen cases from 116 published blasts, scored under three split protocols. The headline is negative and on the front page: under leave-one-site-out not one learned arm explains any variance (best -0.034 against a null at -0.216), while the two fixed-coefficient arms, the published regression at 0.802 and Kuznetsov at 0.311, are the only positives; the kill criterion written before the run fired. Engine blastfrag published separately on PyPI; reproducibility stated as measured (byte-identical within an environment, better than 3e-08 relative across operating systems). Part of the Faena hub; lifecycle building. MIT."
+
+      - title: "Floraria, a Continuous Botanical Scene from Museum Scans to Cells"
+        link: "https://floraria.fasl-work.com"
+        tagline: "One continuous scene from the whole flower to tissues, cells and compartments, opened by scroll or pinch, with three floral constructions, four connected pathways and twelve guided investigations. Five Smithsonian CC0 bloom specimens (outer surfaces only) and two authored educational component models stay in visibly labelled lanes in the interface and in every export; no internal organ, segmentation or measurement is claimed from a scan. English and Spanish, keyboard and touch, bookmarks, shareable selections, JSON and PNG export. Rebuilt twice on my own verdict with every earlier release kept reachable; 160 frontend and 56 Python tests and a 126-check browser suite. Apache-2.0; lifecycle building."
+
+      - title: "Plega, a Rigid-Paper Mechanism Workshop from Editable Design to Actual-Size Cut Files"
+        link: "https://plega.fasl-work.com"
+        tagline: "One editable design connected to a moving rigid-paper view, explicit geometric diagnoses (lane overlap, collision, separation), finite pinned repair comparisons, assembly progress and calibrated actual-size PDF, SVG, FOLD and JSON export, every coordinate in millimetres. Two mechanism families, up to six separated lanes, twelve cutwork compositions, six starters and two deliberately invalid repair cases. The model is rigid zero-thickness panels and says what it does not predict: material stiffness, fold forces, glue, printer calibration, assembly success. Each release recorded with its exact commit and verified Quality and Pages run; 105 frontend and 24 Python tests. Apache-2.0 code, MIT design data; lifecycle building."
+
+      - title: "Sondara, a Local-First Drillhole Intelligence Workbench"
+        link: "https://sondara.ml.fasl-work.com"
+        tagline: "Collar, survey, assay and geology sources desurveyed and rendered as a WebGL subsurface reconstruction in the browser (borehole tubes, assay supports, an ore continuity shell, geology contacts, depth slicing), no login, uploaded data staying on the machine. A support-weighted estimate with uncertainty, cross-validation and the grade profile is recomputed locally; the spatial-conditioning engine is geocond (support-aware conditioning, covariance estimation, sequential simulation), published on PyPI from its own repository. Not a production resource estimate: QA and QC, compositing, variogram fitting, full covariance, categorical simulation and competent-person review are stated as outside the public workbench. Public alpha, lifecycle building."
+
+      - title: "QMine, Quantum Computing Measured on Real Mining Problems"
+        link: "https://qmine.ml.fasl-work.com"
+        tagline: "Private research app that measures what today's quantum providers can do on real mining problems: every case runs the same ladder on real engines (OR-Tools CP-SAT, HiGHS, exact decomposition, field heuristics, dwave-samplers annealing and tabu, simulated bifurcation, QAOA variants, VQE, PennyLane, a quantum kernel) plus eleven credential-gated provider lanes, with a money-denominated cost ledger and a verdict computed per instance. Sixteen cases, 121 variants, 3,255 declared solver cells, baked completely with every skip explicit. Measured today: problem-aware gate variants reach the proven optimum on tiny pits; a tie on supply packing with the classical solver three times faster; ridge beats both quantum models on a flotation soft sensor. No quantum advantage is claimed. Lifecycle building. MIT."
+
+      - title: "Fragua, Ensembles of Phenomenological Models for Mining and Industrial Processes"
+        link: "https://fragua.ml.fasl-work.com"
+        tagline: "Instead of one kinetic equation per unit process, many realizations (families x multistarts x bootstrap resamples) from a curated bank aggregated into calibrated ensembles with structural inclusion probabilities: which model describes this process and with what confidence, then what that structural doubt means for prediction beyond the training envelope. BAPE (Bootstrap-Aggregated Phenomenological Ensembles) is rung 6 of a twelve-rung ladder baked over 30 variants beside a Bayesian model average, ensemble SINDy, a Kennedy-O'Hagan hybrid and deep ensembles, with a misspecified control whose truth lies outside every family. Engine phenoforge on PyPI from its own repository; a real Pyodide live lane installs the published wheel in the browser. The concept's novelty gap was verified against literature and vendors before the build. Private research product; lifecycle building."
+
+      - title: "Porvenir, Learned World Models for Mineral Processing, Measured Against Holding the Last Value"
+        link: "https://porvenir.ml.fasl-work.com"
+        tagline: "A world model takes a proposed action sequence as an argument and returns a distribution over futures, which makes what-if, planning and regime detection expressible. Eleven rungs plus a Chronos zero-shot yardstick, from persistence and VARX through GRU-D, DeepAR, MQ-RNN, a probabilistic ensemble, a patch transformer, S4 and recurrent state-space models, every one scored per horizon against holding the last value on the CC0 iron-ore flotation record, the Tennessee Eastman archive and two in-house simulators. On the real record seven of nine learned rungs do not beat persistence, and the case says so; the first bake's numbers were withdrawn for four recorded defects and replaced by a re-bake. Engine latentplant on PyPI; a CC-BY preprint on Zenodo; a research product, not a plant control system."
+
       - title: "CareerTwin, Single-Seeker Career Evidence and Job-Search Workbench"
         link: "https://careertwin.ml.fasl-work.com"
         tagline: "Self-hosted job-search workbench for one seeker: an evidence-centred profile, opportunities captured with provenance, and a deterministic match score that is a versioned alignment measure with coverage and uncertainty (required, preferred and eligibility kept apart), never a hiring probability. Bounded, evidence-cited agent workflows may only propose writes the seeker approves, and the product runs fully without a provider. FastAPI, PostgreSQL 17 with pgvector, React; ESCO 1.2.1 and O*NET 30.3 importers with a pinned retrieval benchmark. v0.14.5 live on one VPS behind 82 backend and 22 frontend tests, CodeQL, an SBOM and an 8.059 ms p95 load contract; it does not rank candidates for employers, infer protected traits, scrape, auto-apply or send outreach, and no external job-search outcome is claimed. Public, MIT."
@@ -553,6 +593,14 @@ oss:
       - title: "reflexmesh (PyPI)"
         link: "https://pypi.org/project/reflexmesh/"
         tagline: "Published Python package: typed event-driven software control and learned metacontrol, the public core of System One."
+
+      - title: "phenoforge (PyPI)"
+        link: "https://pypi.org/project/phenoforge/"
+        tagline: "Published Python package: the engine of Fragua, a bank of phenomenological model families with multistart fitting, bootstrap aggregation into calibrated ensembles with structural inclusion probabilities, and a Goodman-Weare sampler for the Bayesian model average."
+
+      - title: "latentplant (PyPI)"
+        link: "https://pypi.org/project/latentplant/"
+        tagline: "Published Python package: the engine of Porvenir, learned world models for process records, a ladder from persistence and VARX to GRU-D, DeepAR, MQ-RNN, probabilistic ensembles, patch transformers, S4 and recurrent state-space models, with ONNX export for the browser imagination lane."
 
       - title: SCIAN_LEO_CPM
         link: "https://github.com/fsantibanezleal/SCIAN_LEO_CPM"
