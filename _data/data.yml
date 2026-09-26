@@ -510,6 +510,50 @@ oss:
         link: "https://pypi.org/project/geoscena/"
         tagline: "Published Python package: an area-of-interest public-geodata acquisition plus SceneBundle fusion and meshing core for 3D area reconstruction from open geospatial sources."
 
+      - title: "regimecpd (PyPI)"
+        link: "https://pypi.org/project/regimecpd/"
+        tagline: "Published Python package: regime-conditional change-point detection for load-varying machines, segmenting the operating regime from context channels first and detecting on the within-regime residual. The engine of TruckVitals; three defects found by an adversarial review of the product were fixed and released here."
+
+      - title: "bedblend (PyPI)"
+        link: "https://pypi.org/project/bedblend/"
+        tagline: "Published Python package: a bed-blending stockpile engine, repose-angle deposition truck by truck, Gray-Thornton kinetic size segregation and per-cell lot provenance. The physics of StockTwin."
+
+      - title: "milldem (PyPI)"
+        link: "https://pypi.org/project/milldem/"
+        tagline: "Published Python package: cross-platform soft-sphere discrete-element simulation of tumbling-mill charge motion and power. The engine of ChancaDEM."
+
+      - title: "blastfrag (PyPI)"
+        link: "https://pypi.org/project/blastfrag/"
+        tagline: "Published Python package: blast-fragmentation prediction from a bench pattern, the published ladder from Kuz-Ram to stacking ensembles, scored on real measured blasts with variance explained named as such. The engine of Fragmenta, consumed from PyPI since 0.04.005."
+
+      - title: "fracpta (PyPI)"
+        link: "https://pypi.org/project/fracpta/"
+        tagline: "Published Python package: GeoType catalogues of fractured-reservoir pressure transients, analytic ensembles, GeoDFN networks and their descriptors, open-DARTS wrappers, the clustering ladder and attribution. The engine Pulso consumes since 0.26; extracted from the product in September 2026, when the extraction also fixed a non-reproducible DFN lane."
+
+      - title: "geocond (PyPI)"
+        link: "https://pypi.org/project/geocond/"
+        tagline: "Published Python package: support-aware spatial conditioning, covariance estimation and sequential simulation for drillhole data. The engine of Sondara."
+
+      - title: "spinoct (PyPI)"
+        link: "https://pypi.org/project/spinoct/"
+        tagline: "Published Python package: optimal control paths and energy-efficient switching pulses for classical spin dynamics (Landau-Lifshitz-Gilbert), analytic and numerical, with GRAPE and CRAB. The engine of Espira."
+
+      - title: "sreval (PyPI)"
+        link: "https://pypi.org/project/sreval/"
+        tagline: "Published Python package: an evaluator for symbolic regression with triple-equivalence testing that reports its own failures, so accuracy and structural recovery are scored apart. The evaluator behind SymLab."
+
+      - title: "copela (PyPI)"
+        link: "https://pypi.org/project/copela/"
+        tagline: "Published Python package: runs narrative-to-formal translation across many language models and many solvers and scores the result with executable, structural and property oracles rather than a language model; append-only ledger and a budget guard. The harness of Enunciado."
+
+      - title: "planteo (PyPI)"
+        link: "https://pypi.org/project/planteo/"
+        tagline: "Published Python package: a typed representation for a problem after it has been read and before it is solved, with dimensions on every quantity, provenance on every element and a record of what the statement left open. The representation of Enunciado."
+
+      - title: "reflexmesh (PyPI)"
+        link: "https://pypi.org/project/reflexmesh/"
+        tagline: "Published Python package: typed event-driven software control and learned metacontrol, the public core of System One."
+
       - title: SCIAN_LEO_CPM
         link: "https://github.com/fsantibanezleal/SCIAN_LEO_CPM"
         tagline: "Cellular Potts Model simulator for zebrafish embryonic cell migration."
