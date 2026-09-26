@@ -251,7 +251,7 @@ projects:
 
       - title: "Destello, the Whole Fly Nervous System Working Through Its Two Real Eyes"
         link: "https://github.com/fsantibanezleal/CAOS_RES_Destello"
-        tagline: "Successor of Conectoma, ordered on my own verdict that it showed a type-level abstraction of one eye: the MaleCNS v1.0 connectome (166,700 neurons, brain and nerve cord, CC BY 4.0) driven through both real compound eyes (879 left and 892 right measured columns) with the published neuron models and nothing learned inside the wiring, so a visitor can watch real neurons fire at real positions and intervene. Built engine first: four verified dossiers, a plan, then flycns, its own package, complete in Python and published on PyPI at 0.06.001, with four coupled models measured on MaleCNS; a flash reaches the nerve-cord motor neurons; the eye model's vertical was found one lattice step off and fixed. The scene renderer, the 13 cases, the export and the web product are not built; nothing is deployed; version 0.00.000; lifecycle planned."
+        tagline: "Successor of Conectoma, ordered on my own verdict that it showed a type-level abstraction of one eye: the MaleCNS v1.0 connectome (166,700 neurons, brain and nerve cord, CC BY 4.0) driven through both real compound eyes (879 left and 892 right measured columns) with the published neuron models and nothing learned inside the wiring, so a visitor can watch real neurons fire at real positions and intervene. Built engine first: four verified dossiers, a plan, then flycns, its own package, complete in Python and in the browser (CPU and WebGPU, held to the reference) and published on PyPI and npm at 0.07.000, with four coupled models measured on MaleCNS; a flash reaches the nerve-cord motor neurons; the eye model's vertical was found one lattice step off and fixed. Then the visual world: an analytic renderer of both eyes and the 13 cases with 222 stimuli and exact truth. The engine runs over the cases, the export and the web product are not built; nothing is deployed; version 0.01.001; lifecycle planned."
 
       - title: "Rajo, Open Pits Seen from Orbit"
         link: "https://rajo.fasl-work.com"
@@ -383,7 +383,7 @@ projects:
 
       - title: "CAOS Seismic, Probabilistic Earthquake Forecasting"
         link: "https://seismic.fasl-work.com"
-        tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. Offline daily job → git-as-data → static viewer."
+        tagline: "Operational earthquake forecasting (forecasts, not predictions): space–time ETAS + smoothed Poisson null + a gated neural challenger, scored with pyCSEP (information gain in nats), calibration as a release blocker. An offline daily job commits its data to git, and a static viewer reads it."
 
       - title: "CAOS SimLab, A Didactic Lab for Simulation (DES & ABM)"
         link: "https://simlab.fasl-work.com"
@@ -395,7 +395,7 @@ projects:
 
       - title: "ChargeCascade, Tumbling-Mill Charge Motion & Power Studio"
         link: "https://chargecascade.fasl-work.com"
-        tagline: "Live in-browser 3D studio for tumbling-mill (SAG/ball/rod) charge motion and power: critical speed, the cascading→cataracting→centrifuging transition, toe/shoulder, Hogg-Fuerstenau/Morrell/Bond power, closed-form physics (not DEM) recomputed on every slider, with an ONNX power surrogate (~5% vs the exact engine) and an out-of-envelope anomaly guard. Part of the Faena hub."
+        tagline: "Live in-browser 3D studio for tumbling-mill (SAG/ball/rod) charge motion and power: critical speed, the transition from cascading to cataracting to centrifuging, toe/shoulder, Hogg-Fuerstenau/Morrell/Bond power, closed-form physics (not DEM) recomputed on every slider, with an ONNX power surrogate (~5% vs the exact engine) and an out-of-envelope anomaly guard. Part of the Faena hub."
 
       - title: "Faena, Mining-Analytics Hub"
         link: "https://faena.fasl-work.com"
@@ -423,7 +423,7 @@ projects:
 
       - title: "PINN-Lab, A Runnable Catalogue of Physics-Informed Neural Networks"
         link: "https://pinnlab.fasl-work.com"
-        tagline: "19 PINN cases trained offline (DeepXDE → ONNX), validated against analytic/benchmark/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
+        tagline: "19 PINN cases trained offline (DeepXDE, exported to ONNX), validated against analytic/benchmark/real-data anchors, and re-inferred live in the browser (onnxruntime-web): move a parameter and the network re-solves the PDE. Forward + inverse + UQ + operator learning; relative-L2 published per case."
 
       - title: "ImageLab, One Image Across the Full Spectrum of Representations"
         link: "https://imglab.fasl-work.com"
@@ -596,7 +596,7 @@ oss:
 
       - title: "flycns (PyPI)"
         link: "https://pypi.org/project/flycns/"
-        tagline: "Published Python package: fly connectome releases (MaleCNS v1.0 first) compiled into signed graphs with positions and per-eye column maps, the two compound eyes, and the whole central nervous system simulated with the published neuron models on NumPy and PyTorch, held to Brian2 and flyvis by parity tests. The engine of Destello."
+        tagline: "Published Python package: fly connectome releases (MaleCNS v1.0 first) compiled into signed graphs with positions and per-eye column maps, the two compound eyes, and the whole central nervous system simulated with the published neuron models on NumPy and PyTorch, held to Brian2 and flyvis by parity tests. The engine of Destello; its browser engine (CPU and WebGPU) is on npm as @fasl-work/flycns."
 
       - title: "sreval (PyPI)"
         link: "https://pypi.org/project/sreval/"
