@@ -594,6 +594,10 @@ oss:
         link: "https://pypi.org/project/spinoct/"
         tagline: "Published Python package: optimal control paths and energy-efficient switching pulses for classical spin dynamics (Landau-Lifshitz-Gilbert), analytic and numerical, with GRAPE and CRAB. The engine of Espira."
 
+      - title: "flycns (PyPI)"
+        link: "https://pypi.org/project/flycns/"
+        tagline: "Published Python package: fly connectome releases (MaleCNS v1.0 first) compiled into signed graphs with positions and per-eye column maps, the two compound eyes, and the whole central nervous system simulated with the published neuron models on NumPy and PyTorch, held to Brian2 and flyvis by parity tests. The engine of Destello."
+
       - title: "sreval (PyPI)"
         link: "https://pypi.org/project/sreval/"
         tagline: "Published Python package: an evaluator for symbolic regression with triple-equivalence testing that reports its own failures, so accuracy and structural recovery are scored apart. The evaluator behind SymLab."
