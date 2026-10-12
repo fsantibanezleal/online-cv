@@ -4,11 +4,11 @@
 
 sidebar:
     about: False
-    education: True
+    education: False
 
     # Profile information
     name: Felipe Santibañez-Leal
-    tagline: "Industrial Manager | Applied Scientist & Technical Leader"
+    tagline: "Business & Technology Manager | Industrial Transformation"
     avatar: fasl-brand-avatar-dark.png
 
     # Sidebar links
@@ -57,9 +57,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Industrial manager with a strong foundation as an applied scientist and technical leader, and 15+ years across academia and industry. Focus on business priorities, analytics adoption roadmaps, portfolio planning, and multidisciplinary team leadership in asset-intensive industries and productive processes.
+      Business and technology manager focused on improving industrial performance through digital transformation. I lead multidisciplinary teams and advanced analytics initiatives, aligning business priorities with operational outcomes. My work spans portfolio planning, stakeholder coordination, project delivery, and the adoption of AI and digital solutions - from business case through implementation and continuous improvement.
 
-      Management of the full AI development cycle, from business case and data quality through validation, deployment, and continuous improvement. Experience includes analytics and development team leadership, industrial process optimization, and applied research. Ph.D. in Electrical Engineering; graduate studies in Project Management in progress.
+      Technical leadership supports my management of delivery, validation, deployment, and continuous improvement.
 
 education:
     title: Education
@@ -98,7 +98,7 @@ education:
 experiences:
     title: Experience
     info:
-      - role: I&F Decision Science Assoc. Manager
+      - role: Industrial & Functional Decision Science Associate Manager
         time: Sept. 2025 - Present
         company: Accenture – Industry X, Santiago, Chile
         details: |
