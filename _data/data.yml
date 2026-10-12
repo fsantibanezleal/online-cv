@@ -9,14 +9,14 @@ sidebar:
     # Profile information
     name: Felipe Santibañez-Leal
     tagline: "Industrial Manager | Applied Scientist & Technical Leader"
-    avatar: profile.png
+    avatar: fasl-brand-avatar-dark.png
 
     # Sidebar links
     email: felipe@FASL.Work
     phone:
     timezone: America/Santiago
     citizenship: Chile
-    website: fasl.work #do not add http://
+    website: fasl-work.com # do not add a protocol; contact template uses HTTPS
     linkedin: fsantibanez
     github: fsantibanezleal
     gitlab:
@@ -28,27 +28,31 @@ sidebar:
     pdf:
 
     languages:
-      - idiom: Spanish
-        level: Native
+      title: Languages
+      info:
+        - idiom: Spanish
+          level: Native
 
-      - idiom: English
-        level: Professional Working
+        - idiom: English
+          level: Professional Working
 
     interests:
-      - item: Data Science & Machine Learning
-        link:
+      title: Interests
+      info:
+        - item: Data Science & Machine Learning
+          link:
 
-      - item: Computational Photography & Optics
-        link:
+        - item: Computational Photography & Optics
+          link:
 
-      - item: Geostatistics & Mining Analytics
-        link:
+        - item: Geostatistics & Mining Analytics
+          link:
 
-      - item: Nature & Hiking
-        link:
+        - item: Nature & Hiking
+          link:
 
-      - item: Scientific Education & Outreach
-        link:
+        - item: Scientific Education & Outreach
+          link:
 
 career-profile:
     title: Career Profile
@@ -58,129 +62,133 @@ career-profile:
       Management of the full AI development cycle, from business case and data quality through validation, deployment, and continuous improvement. Experience includes analytics and development team leadership, industrial process optimization, and applied research. Ph.D. in Electrical Engineering; graduate studies in Project Management in progress.
 
 education:
-    - degree: M.Sc. Program in Project Management
-      university: Universidad de Viña del Mar
-      time: 2024 - Present
-      details:
+    title: Education
+    info:
+      - degree: M.Sc. Program in Project Management (in progress)
+        university: Universidad de Viña del Mar
+        time: 2024 - Present
+        details:
 
-    - degree: Ph.D. in Electrical Engineering
-      university: Universidad de Chile
-      time: 2013 - 2019
-      details: |
-        Thesis: "An information-theoretic sampling strategy for the recovery of geological images:
-        modeling, analysis, and implementation." Focus on inverse problems, geosciences, compressed
-        sensing, and adaptive sampling strategies. CONICYT National Scholarship.
+      - degree: Ph.D. in Electrical Engineering
+        university: Universidad de Chile
+        time: 2013 - 2019
+        details: |
+          Thesis: "An information-theoretic sampling strategy for the recovery of geological images:
+          modeling, analysis, and implementation." Focus on inverse problems, geosciences, compressed
+          sensing, and adaptive sampling strategies. CONICYT National Scholarship.
 
-    - degree: Postgraduate Diploma in Medical Informatics
-      university: Universidad de Chile & University of Heidelberg
-      time: 2011
-      details: |
-        Joint program with Heidelberg Center for Latin America.
+      - degree: Postgraduate Diploma in Medical Informatics
+        university: Universidad de Chile & University of Heidelberg
+        time: 2011
+        details: |
+          Joint program with Heidelberg Center for Latin America.
 
-    - degree: B.Sc. in Electronic Civil Engineering
-      university: Universidad de Concepción
-      time: 2003 - 2009
-      details: |
-        Recipient of Enrique Molina Garmendia and Bicentenario Scholarships.
+      - degree: B.Sc. in Electronic Civil Engineering
+        university: Universidad de Concepción
+        time: 2003 - 2009
+        details: |
+          Recipient of Enrique Molina Garmendia and Bicentenario Scholarships.
 
-    - degree: Industrial Electronics Technician
-      university: C.E.A.T. Liceo Mauricio Hochschild
-      time: 1998 - 2002
-      details: |
-        Awards for renewable energy projects.
+      - degree: Industrial Electronics Technician
+        university: C.E.A.T. Liceo Mauricio Hochschild
+        time: 1998 - 2002
+        details: |
+          Awards for renewable energy projects.
 
 experiences:
-    - role: I&F Decision Science Assoc. Manager
-      time: Sept. 2025 - Present
-      company: Accenture – Industry X, Santiago, Chile
-      details: |
-        Industrial management of analytics and AI initiatives, aligning business priorities, portfolio planning, multidisciplinary teams, and operational outcomes. Current client assignment: CODELCO MinCo-Hidro.
+    title: Experience
+    info:
+      - role: I&F Decision Science Assoc. Manager
+        time: Sept. 2025 - Present
+        company: Accenture – Industry X, Santiago, Chile
+        details: |
+          Industrial management of analytics and AI initiatives, aligning business priorities, portfolio planning, multidisciplinary teams, and operational outcomes. Current client assignment: CODELCO MinCo-Hidro.
 
-          - Align analytics initiatives with business priorities and coordinate multidisciplinary teams
-          - Manage the full AI development cycle: business case, data quality, validation, deployment, and continuous improvement
-          - Support pre-sales and business development for industry-focused Data & AI projects
-          - Supervise professional internships: mentored geotechnical risk prediction system industrialization (2026)
-          - Co-presented "Mineral Tracking Models: five years of Codelco experience" with Magdalena Ribbeck (Directora, Codelco MinCo-Hidro) at Minería Digital 2026, Santiago (Aug 2026)
+            - Align analytics initiatives with business priorities and coordinate multidisciplinary teams
+            - Manage the full AI development cycle: business case, data quality, validation, deployment, and continuous improvement
+            - Support pre-sales and business development for industry-focused Data & AI projects
+            - Supervise professional internships: mentored geotechnical risk prediction system industrialization (2026)
+            - Co-presented "Mineral Tracking Models: five years of Codelco experience" with Magdalena Ribbeck (Directora, Codelco MinCo-Hidro) at Minería Digital 2026, Santiago (Aug 2026)
 
-    - role: Data Processing Specialist | Senior Lead Data Scientist
-      time: Jan. 2025 - Sept. 2025
-      company: Minera Centinela – AMSA Group, Antofagasta, Chile
-      details: |
-        Led advanced analytics initiatives across the mining value chain.
+      - role: Data Processing Specialist | Senior Lead Data Scientist
+        time: Jan. 2025 - Sept. 2025
+        company: Minera Centinela – AMSA Group, Antofagasta, Chile
+        details: |
+          Led advanced analytics initiatives across the mining value chain.
 
-          - Predictive and optimization models for SAG milling, flotation, and stockpile management; +120 TPH throughput uplift
-          - Digital dashboards for operational recommendation adherence and real-time decision-making
-          - Mineral traceability and stockpile segregation/extraction models improving blending strategies
-          - Site-wide air quality initiative achieving 15% reduction in severe-event alerts
+            - Predictive and optimization models for SAG milling, flotation, and stockpile management; +120 TPH throughput uplift
+            - Digital dashboards for operational recommendation adherence and real-time decision-making
+            - Mineral traceability and stockpile segregation/extraction models improving blending strategies
+            - Site-wide air quality initiative achieving 15% reduction in severe-event alerts
 
-    - role: Business & Technology Delivery Associate Manager
-      time: Jun. 2024 - Dec. 2024
-      company: Accenture – Industry X, Santiago, Chile
-      details: |
-        Strategic advisor in digital transformation for a leading national mining company.
+      - role: Business & Technology Delivery Associate Manager
+        time: Jun. 2024 - Dec. 2024
+        company: Accenture – Industry X, Santiago, Chile
+        details: |
+          Strategic advisor in digital transformation for a leading national mining company.
 
-          - Led Generative AI initiatives for process improvement and operational communication
-          - Defined functional and application architectures aligned with business requirements
-          - Underground ore transport optimization and geophysical risk analysis solutions
+            - Led Generative AI initiatives for process improvement and operational communication
+            - Defined functional and application architectures aligned with business requirements
+            - Underground ore transport optimization and geophysical risk analysis solutions
 
-    - role: Project Leader | Senior Data Scientist
-      time: Jan. 2022 - May 2024
-      company: CODELCO, Santiago, Chile
-      details: |
-        Led optimization projects for flotation, milling, and thickening across divisions.
+      - role: Project Leader | Senior Data Scientist
+        time: Jan. 2022 - May 2024
+        company: CODELCO, Santiago, Chile
+        details: |
+          Led optimization projects for flotation, milling, and thickening across divisions.
 
-          - Achieved +100 TPH throughput increases and measurable copper recovery improvements
-          - Deployed pollution mitigation using computer vision (24-stream monitoring) and Generative AI for natural-language recommendations
-          - Supervised pilots and prototypes integrated into the company's operational portfolio
-          - Technical improvements in data management (Spark Delta, Kedro, LogAnalytics) and Azure migration
+            - Achieved +100 TPH throughput increases and measurable copper recovery improvements
+            - Deployed pollution mitigation using computer vision (24-stream monitoring) and Generative AI for natural-language recommendations
+            - Supervised pilots and prototypes integrated into the company's operational portfolio
+            - Technical improvements in data management (Spark Delta, Kedro, LogAnalytics) and Azure migration
 
-    - role: Head of Analytics and Development Teams
-      time: Aug. 2021 - Dec. 2021
-      company: Alaya Digital Solutions, Santiago, Chile
-      details: |
-        Led analytics and development teams across mining, aquaculture, retail, and brewing industries.
+      - role: Head of Analytics and Development Teams
+        time: Aug. 2021 - Dec. 2021
+        company: Alaya Digital Solutions, Santiago, Chile
+        details: |
+          Led analytics and development teams across mining, aquaculture, retail, and brewing industries.
 
-          - Achieved 10-15% production improvements in real operations
-          - Computer-vision-based monitoring system for salmon processing plants
-          - Formulated and managed ML projects focused on process optimization and cost efficiency
+            - Achieved 10-15% production improvements in real operations
+            - Computer-vision-based monitoring system for salmon processing plants
+            - Formulated and managed ML projects focused on process optimization and cost efficiency
 
-    - role: Principal ML/AI Engineer | Research Scientist
-      time: Aug. 2018 - Aug. 2022
-      company: ALGES – Advanced Laboratory of Geostatistics and Supercomputing, Santiago, Chile
-      details: |
-        Applied statistical modeling and machine learning to high-dimensional data.
+      - role: Principal ML/AI Engineer | Research Scientist
+        time: Aug. 2018 - Aug. 2022
+        company: ALGES – Advanced Laboratory of Geostatistics and Supercomputing, Santiago, Chile
+        details: |
+          Applied statistical modeling and machine learning to high-dimensional data.
 
-          - Geometallurgical models integrating spectral and laboratory data
-          - Exploration models (brownfield/greenfield) identifying high-potential mineral targets
-          - Published results and transferred solutions to mining industry stakeholders
+            - Geometallurgical models integrating spectral and laboratory data
+            - Exploration models (brownfield/greenfield) identifying high-potential mineral targets
+            - Published results and transferred solutions to mining industry stakeholders
 
-    - role: Independent Expert Consultant
-      time: 2016 - Present
-      company: Freelance Projects, Chile
-      details: |
-        Advanced analytics and software development consulting.
+      - role: Independent Expert Consultant
+        time: 2016 - Present
+        company: Freelance Projects, Chile
+        details: |
+          Advanced analytics and software development consulting.
 
-          - Full-stack crusher wear management platform: 3D point cloud processing, wear forecasting, dual deployment (desktop + web with Next.js/FastAPI/Docker Swarm)
-          - Hyperspectral mineral classification platform using ensemble ML (XGBoost, CNN) with compositional constraints
-          - Clay classification from drone/tripod hyperspectral imagery validated at active mining sites
-          - GPR, magnetometry, and hyperspectral workflows compressed from days to hours
+            - Full-stack crusher wear management platform: 3D point cloud processing, wear forecasting, dual deployment (desktop + web with Next.js/FastAPI/Docker Swarm)
+            - Hyperspectral mineral classification platform using ensemble ML (XGBoost, CNN) with compositional constraints
+            - Clay classification from drone/tripod hyperspectral imagery validated at active mining sites
+            - GPR, magnetometry, and hyperspectral workflows compressed from days to hours
 
-    - role: Researcher & Engineer
-      time: 2010 - 2021
-      company: Universidad de Chile, Universidad de Concepción, Universidad Adolfo Ibáñez
-      details: |
-        Biomedical, geometallurgy, and scientific computing projects.
+      - role: Researcher & Engineer
+        time: 2010 - 2021
+        company: Universidad de Chile, Universidad de Concepción, Universidad Adolfo Ibáñez
+        details: |
+          Biomedical, geometallurgy, and scientific computing projects.
 
-          - Non-parametric Bayesian strategies with hyperspectral data for geometallurgical estimation
-          - Algorithms and systems for microscopy, biomedical imaging, and applied optics
-          - International collaboration (University of Göttingen) in super-resolution microscopy
-          - Teaching Medical Informatics and Image Processing (2012-2019)
+            - Non-parametric Bayesian strategies with hyperspectral data for geometallurgical estimation
+            - Algorithms and systems for microscopy, biomedical imaging, and applied optics
+            - International collaboration (University of Göttingen) in super-resolution microscopy
+            - Teaching Medical Informatics and Image Processing (2012-2019)
 
-    - role: Founder & Engineer
-      time: 2017 - 2021
-      company: Micromundo Chile Spa, Santiago, Chile
-      details: |
-        Educational technologies in optics and microscopy for science outreach.
+      - role: Founder & Engineer
+        time: 2017 - 2021
+        company: Micromundo Chile Spa, Santiago, Chile
+        details: |
+          Educational technologies in optics and microscopy for science outreach.
 
 certifications:
     title: Certifications
@@ -690,6 +698,9 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Project Management & Team Leadership
+        level: 90%
+
       - name: Python (NumPy, Pandas, Scikit-learn, PyTorch)
         level: 95%
 
@@ -716,9 +727,6 @@ skills:
 
       - name: C++ & CUDA
         level: 75%
-
-      - name: Project Management & Team Leadership
-        level: 90%
 
 recommendations:
     title: Recommendations
